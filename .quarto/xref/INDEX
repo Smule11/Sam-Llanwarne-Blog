@@ -10,5 +10,11 @@
   },
   "posts/welcome/index.qmd": {
     "index.html": "16777621"
+  },
+  "posts/making-a-blog/index.ipynb": {
+    "index.html": "0ff0d2eb"
+  },
+  "posts/making-a-blog/index.qmd": {
+    "index.html": "dfaf7dff"
   }
 }

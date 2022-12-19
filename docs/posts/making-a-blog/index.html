@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.280">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Sam Llanwarne">
+<meta name="dcterms.date" content="2022-12-19">
+
+<title>Sam Llanwarne Blog - Making a Blog</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Sam Llanwarne Blog</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/"><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com"><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Making a Blog</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">How To</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Sam Llanwarne </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">December 19, 2022</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#making-a-blog" id="toc-making-a-blog" class="nav-link active" data-scroll-target="#making-a-blog">Making a Blog</a>
+  <ul class="collapse">
+  <li><a href="#key-to-font-styles" id="toc-key-to-font-styles" class="nav-link" data-scroll-target="#key-to-font-styles"><ins>Key to Font Styles</ins></a></li>
+  <li><a href="#simple-instructions" id="toc-simple-instructions" class="nav-link" data-scroll-target="#simple-instructions"><ins>Simple Instructions</ins></a></li>
+  <li><a href="#motivation" id="toc-motivation" class="nav-link" data-scroll-target="#motivation"><ins>Motivation</ins></a></li>
+  <li><a href="#walkthrough" id="toc-walkthrough" class="nav-link" data-scroll-target="#walkthrough"><ins>Walkthrough</ins></a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<section id="making-a-blog" class="level1">
+<h1>Making a Blog</h1>
+<p>The first showing in this blog.</p>
+<section id="key-to-font-styles" class="level3">
+<h3 class="anchored" data-anchor-id="key-to-font-styles"><ins>Key to Font Styles</ins></h3>
+<p><font color="cyan"> <em>Text in this colour are the actions I took</em> </font></p>
+<p><font color="mediumorchid"> <em>Text in this colour are obsolete actions I took</em> </font></p>
+<p>? I try to do italics for filepaths, and bold for code lines.</p>
+<hr>
+</section>
+<section id="simple-instructions" class="level3">
+<h3 class="anchored" data-anchor-id="simple-instructions"><ins>Simple Instructions</ins></h3>
+</section>
+<section id="motivation" class="level3">
+<h3 class="anchored" data-anchor-id="motivation"><ins>Motivation</ins></h3>
+<p>Creating a blog in a template is easier than coding a website yourself, although I still think this is very easy for a basic website. But incorporating more complex features and making it look nicer is easier with a template. Jekyll is one template people use:</p>
+<ul>
+<li><a href="https://ysbecca.github.io/">Rebecca Stone</a> | <a href="">github code</a></li>
+<li>[Mary Paterson] (hyperlink) | <a href="">github code</a></li>
+<li><a href="https://fabianfuchsml.github.io/">Fabian Fuchs</a> | <a href="">github code</a></li>
+<li><a href="https://blog.djnavarro.net/">Danielle Navarro</a> | <a href="https://github.com/djnavarro/quarto-blog/">github code</a></li>
+<li><ul>
+<li>Although she has many (github.io?) websites linking together from <a href="https://djnavarro.net/">this page</a> | <a href="https://github.com/djnavarro/djnavarro.github.io/blob/main/docs/index.html">github code</a></li>
+</ul></li>
+</ul>
+<p>But I agreed with Bailey, that doing a template that centres on .ipynb notebooks rather than straight .md markdown files is slightly better, as notebooks include markdown cells, but also code cells. So you can run code offline and the blog post can be more easily code centred. Also other people can copy the notebook and run it themselves which is useful.</p>
+<ul>
+<li><a href="https://baileyandrew.github.io/Blog/2022tuedec13.html">Bailey’s blog</a>.</li>
+</ul>
+<p>The point of this blog is - to practice public writing - to practice science communication - to summarise technical work I did - to summarise How To’s such as this where I do something once which is not trivial and I want to record how for other people and for future reference. - for my CV - as a record of papers I’ve read - as a log of my thoughts - to inspire others to do the same and to create some sort of small, shallow community online of well intentioned people.</p>
+<p>This will become the first entry into my blog online. Each entry will be a jupyter notebook embedded into a HTML template.</p>
+<p>I will describe how I made the HTML template.https://fabianfuchsml.github.io/</p>
+<p>I am following <a href="https://baileyandrew.github.io/Blog/2022tuedec13.html">Bailey’s blog</a> which has led me on a chain through <a href="https://nbdev.fast.ai/tutorials/blogging.html">fastai’s nbdev websites</a> and ultimately to <a href="https://quarto.org/docs/websites/website-blog.html">Quarto’s blogging website</a>.</p>
+<p>I am writing things down as I go.</p>
+<p>Essentially <em>fastAI</em> say they created a package called fastpages to incorporate notebook blogging into the Jekyll templates (they say at the time no one else had a notebook integration into Jekyll blog package). Then they say that Quarto was published, and this is a better way to blog with notebooks. They now integrated Quarto into nbdev and provide a way to migrate from their Jekyll based blogging template to their Quarto based blogging template. I played around trying to get nbdev to work, but then realised nbdev say on their website if you just want the blogging side of things, its less bloat and easier to only install Quarto.</p>
+<p>Quarto isn’t based on Jekyll (Github’s blogging template).</p>
+</section>
+<section id="walkthrough" class="level3">
+<h3 class="anchored" data-anchor-id="walkthrough"><ins>Walkthrough</ins></h3>
+<p><font color="cyan">I created this notebook file you’re reading. (By creating a text file and changing the name from “untitled.txt” to “001_2022SatDec17.ipynb”. Changing the file extension from .txt to .ipynb is important so it becomes a notebook file.)</font></p>
+<p><font color="cyan">The name is important [in nbdev blogs, maybe Quarto blogs?] as it controls the order of the blogs in the sidebar. The main heading in the file controls the name of each blog which shows in the sidebar.</font></p>
+<p>To open and read this .ipynb file I am editing it in Visual Studio Code. A lot of people use Jupyter Notebook.</p>
+<p>I am also not using conda, I am just using the singular original python installation, and nothing more, with pip installs.</p>
+<details>
+<summary>
+<font color="mediumorchid">nbdev blog creation start (stopped halfway through) and changed to Quarto</font>
+</summary>
+<br>
+<ul>
+<p>Halfway through when I went to install nbdev and looked into how it worked and reading their documentation (https://nbdev.fast.ai/tutorials/blogging.html) I realised that nbdev is a wider general notebook development package, and they used to offer an extension to Jekyll (Githubs blogging template) called fastpages, but now they say Quarto is just the best. They base their blogging component entirely on Quarto, and pretty much say just use Quarto if you just want to blog and not use other nbdev features. I don’t want to use the other nbdev features. They also say in this link that just using Quarto is a good place to start.</p>
+<p>Installing just Quarto seems to be less bloat, and simpler.</p>
+<p><font color="mediumorchid">I create an empty github repo online, with no readme file, named <em>notebookBlog</em>.</font></p>
+<details>
+<summary>
+<font color="mediumorchid">Failed Quick Attempt Which Almost Worked</font>
+</summary>
+<br>
+<ul>
+<p><font color="mediumorchid">I then forked Bailey’s blog: https://github.com/BaileyAndrew/Blog to my github, creating a new repo. </font></p>
+<p><font color="mediumorchid">I opened github desktop which is connected to my online github account, and chose to clone the online blog repo to a local folder on my computer. Here I can edit the blog files. </font></p>
+<p>I closed github desktop, and can edit the files in VS code now. I realise I don’t need Github Desktop and can just zip download the github repo manually, and then edit the notebook files in VS code straight away, and then use my VS code to push the changes back up to the online github repo.</p>
+<p>I could do another blog on setting up Github in VS code.</p>
+<p><font color="mediumorchid">I then deleted all the current blog .ipynb files in the Blog folder locally, and inserted this file into the nbs folder. Here in VS code I now stage, commit and push the changes to the online repo. </font></p>
+<p>nb. I should edit the main index file which is the home page.</p>
+<p><font color="mediumorchid"> I went into the online github repo and the files had been updated. This .ipynb making a blog notebook was there. I then went into settings and on the side found Pages, and chose the branch to make the website active. I chose the main default branch. I refresh the page, the website is live. </font></p>
+<p>Things did not work 100% because when I was making the .ipynb blog posts I shouldn’t just make them on my own, but I should make them with nbdev. This is because the nbdev command to make an ipynb seems to also create and edit extra files in the blog github repo?</p>
+Other files need to be updated too I guess when you make a .ipynb file for the website to properly integrate the new .ipynb file into itself.
+</ul>
+</details>
+<p>After just trying to clone someone else’s nbdev blog repo, I realised I really should do a new nbdev install to get a new template of the blog in a new repo. When you run new nbdev to populate the empty repo it contains user specific info, so cloning will unpleasantly copy across the old users name and stuff. Also you need nbdev to create a notebook, as it simultaneously adjusts other files to recognise this new notebook.</p>
+<details>
+<summary>
+Can you explain what nbdev_new is? (chatGPT response)
+</summary>
+<br>
+<ul>
+<p>‘nbdev_new’ is a command provided by the ‘nbdev’ library, which is a tool for developing and documenting Python projects using Jupyter notebooks. The ‘nbdev_new’ command is used to create a new project directory structure and initial configuration files for a project that will be developed with ‘nbdev’.</p>
+<p>Here is an example of how to use ‘nbdev_new’ to create a new project:</p>
+<pre><code>$ nbdev_new my_project</code></pre>
+<p>This will create a new directory called ‘my_project’ with the following structure:</p>
+<pre><code>my_project/
+├── README.md
+├── index.ipynb
+├── docs/
+│   ├── index.ipynb
+├── nbdev/
+│   ├── __init__.py
+│   ├── core.py
+│   ├── tests/
+│   └── ...
+├── setup.py
+└── requirements.txt</code></pre>
+<p>The ‘README.md’ file contains information about your project, and the ‘index.ipynb’ file is the entry point for your documentation. The ‘docs’ directory contains the source notebooks for your documentation, and the ‘nbdev’ directory contains the source code for your project. The ‘setup.py’ file is used to package your project for distribution, and the ‘requirements.txt’ file lists the dependencies that your project needs.</p>
+You can then use the ‘nbdev’ library to build and publish your project, as well as to generate documentation from the notebooks in the ‘docs’ directory.
+</ul>
+</details>
+<p>Using Github Desktop to clone a new repo down from Github.com to your local desktop is decently easy, and includes the .git file which connects it with the online branch too which is good. SO actually I am using Github Desktop now, after a couple of stop-start hesitations. Bailey cloned it down using the terminal and the git command “git clone …” and this works well too. A few ways to clone an online repo to local storage in a way which creates a .git file. I think you can also push a new local folder to create a new github repo online on Github.com too, using VS Code or Github Desktop or the git terminal or some other ways which also creates a .git file and establishes a connection between local and online.</p>
+<p><font color="mediumorchid">I clone the online empty Github repo <em>notebookBlog</em> down to my local computer using Github Desktop. </font></p>
+<p>We need to install nbdev, which contains the python command package <strong>nbdev_new</strong> to instantiate a blog specific to us.</p>
+<p>I realise I should have created a new python environment, so I could work out how to install all the packages needed (maybe I already have some installed which I won’t mention here). But I am just using my main environment which already has some packages/modules installed.</p>
+<p>To see more about nbdev, https://pypi.org/project/nbdev/</p>
+<p><font color="mediumorchid">I run <strong>pip install nbdev</strong> in the terminal. </font></p>
+<p><font color="mediumorchid">Then I cd into this folder in a terminal, and go into python and run the line:</font></p><font color="mediumorchid">
+</font><p><font color="mediumorchid"><strong>nbdev_new</strong> </font></p>
+</ul>
+</details>
+<p>To change hard drive, in a windows terminal I google’d it https://www.digitalcitizen.life/command-prompt-how-use-basic-commands/ and it says just to first type D: or C: to change the drive, and then go <strong>cd <em>filepath</em></strong>.</p>
+<p><font color="cyan">I installed <a href="https://quarto.org/docs/get-started/">Quarto</a></font></p>
+<p>(Accidentally to the wrong place on my computer but oh well…)</p>
+<p><font color="cyan">I installed the Quarto extension in <a href="https://quarto.org/docs/get-started/hello/vscode.html">VS Code</a> </font></p>
+<p><font color="cyan">I create an empty github repo online, with no readme file, named <em>Sam Llanwarne Blog</em>.</font></p>
+<p><font color="cyan">I follow the steps in <a href="https://quarto.org/docs/websites/website-blog.html">Quarto Create a Blog</a>. </font></p>
+<p>You can use VS Code or the Terminal or RStudio. I use VS Code.</p>
+<p><font color="cyan">I go in VS Code and do ctrl-shit-p and type Quarto Create Project, click it, click create blog, and create a new folder for the blog files. </font></p>
+<p>So we have an online empty git repo, and the blog files locally.</p>
+<p><font color="cyan">I then go into the terminal and cd into this new folder, and run these commands.</font></p><font color="cyan">
+<pre><code>git init 
+git add .
+git commit -m "add my files"
+git remote add origin &lt;YOUR_NEW_GITHUB_REPO_URL&gt;.git
+git branch -M main
+git push -u origin main</code></pre>
+</font><p><font color="cyan"></font></p>
+<p>I found some of these git commands <a href="https://www.techielass.com/convert-a-folder-to-a-git-repository/">here</a> and the rest on the github website.</p>
+<p>Quarto is, at its heart, just software which slightly tidies up R and Python markdown scripts into cleaner versions, for scientific publishing.</p>
+<p>I realised I have to edit the .ipynb notebook file slightly, see here https://quarto.org/docs/tools/vscode.html. I specifically scrolled down to the section on notebooks, Notebook Editor. This gave some of the final information on how to structure the .ipynb or .qmd files.</p>
+<p><font color="cyan">I then read this notebook file into the docs page. I could also make an img</font></p>
+<p>Pseudo instructions</p>
+<p>Continue with the website instructions,</p>
+<p><font color="cyan"> </font></p>
+<p><font color="cyan"> </font></p>
+<p><font color="cyan"> </font></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
