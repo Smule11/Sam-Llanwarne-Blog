@@ -199,12 +199,30 @@ git push -u origin main</code></pre>
 </section>
 <section id="motivation" class="level3">
 <h3 class="anchored" data-anchor-id="motivation"><ins>Motivation</ins></h3>
-<p>The point of this blog is - to practice public writing - to practice science communication - to summarise technical work I did - to summarise How To’s such as this, where I do something once, which is not trivial, and I want to record how to do it, for other people and for future reference. - for my CV - as a record of papers I’ve read - as a log of my thoughts - to inspire others to do the same and to create some sort of small, shallow community online of well intentioned people.</p>
-<p>This will become the first entry into my blog online. Each entry will be a jupyter notebook embedded into a HTML template.</p>
-<p>I am following <a href="https://baileyandrew.github.io/Blog/2022tuedec13.html">Bailey’s blog</a> which has led me on a chain through <a href="https://nbdev.fast.ai/tutorials/blogging.html">fastai’s nbdev websites</a> and ultimately to <a href="https://quarto.org/docs/websites/website-blog.html">Quarto’s blogging website</a>.</p>
+<p>Why?</p>
+<ul>
+<li>to practice public writing</li>
+<li>to practice science communication</li>
+<li>to summarise technical work I did</li>
+<li>to summarise How To’s such as this, where I do something once, which is not trivial, and I want to record how to do it, for other people and for future reference.</li>
+<li>for my CV</li>
+<li>as a record of papers I’ve read</li>
+<li>as a log of my thoughts</li>
+<li>to inspire others to do the same and to create some sort of small, shallow community online of well intentioned people.</li>
+</ul>
 <p>I am writing things down as I go.</p>
-<p>Essentially <em>fastAI</em> say they created a package called fastpages to incorporate notebook blogging into the Jekyll templates (they say at the time no one else had a notebook integration into Jekyll blog package). Then they say that Quarto was published, and this is a better way to blog with notebooks. They now integrated Quarto into nbdev and provide a way to migrate from their Jekyll based blogging template to their Quarto based blogging template. I played around trying to get nbdev to work, but then realised nbdev say on their website if you just want the blogging side of things, its less bloat and easier to only install Quarto.</p>
-<p>Quarto isn’t based on Jekyll (Github’s blogging template).</p>
+<p>This will become the first entry into my blog online. Each entry will be a .ipynb notebook file embedded into an HTML template.</p>
+<p>I am following <a href="https://baileyandrew.github.io/Blog/2022tuedec13.html">Bailey’s blog</a> which has led me on a chain through <a href="https://nbdev.fast.ai/tutorials/blogging.html">fastai’s nbdev websites</a> and ultimately to <a href="https://quarto.org/docs/websites/website-blog.html">Quarto’s blogging website</a>.</p>
+<p>Quarto is, at its heart, just software which slightly tidies up R and Python markdown scripts into cleaner documents, for scientific publishing.</p>
+<details>
+<summary>
+What is fastai’s nbdev and Quarto?
+</summary>
+<br>
+<ul>
+Jekyll is Githubs default blogging template. FastAI built FastPages to facilitate notebook embedding in Jekyll blogs. Then Quarto came which is a standalone notebook blogging template. FastAI changed their software to run on Quarto rather than Jekyll. You can access Quarto through FastAI’s nbdev package, but I don’t need all the nbdev extra features, so am just using Quarto now.
+</ul>
+</details>
 <p><br></p>
 </section>
 <section id="other-blogs" class="level3">
@@ -251,24 +269,24 @@ git push -u origin main</code></pre>
 <p>To open and read this .ipynb file I am editing it in Visual Studio Code. (A lot of people use Jupyter Notebook.)</p>
 <details>
 <summary>
-<font color="mediumorchid">nbdev blog process (stopped halfway through and changed to Quarto)</font>
+<font color="mediumorchid">Following Bailey Blog to build FastAI’s nbdev blog (stopped halfway through and changed to pure Quarto)</font>
 </summary>
 <br>
 <ul>
-<p>Halfway through when I went to install <font color="blue">nbdev</font> and looked into how it worked and reading their documentation (see the bit at the bottom here https://nbdev.fast.ai/tutorials/blogging.html) I saw that nbdev is a general notebook development package, and they used to offer the first extension to Jekyll (Githubs blogging template) which allowed for the insertion of notebooks into the blogs, called <font color="blue">fastpages</font>, but now they say <font color="blue">Quarto</font> is simpler if you only want to blog.</p>
-<p>I went to follow <a href="https://baileyandrew.github.io/Blog/2022tuedec13.html">Bailey’s blog</a></p>
+<p>I went to follow <a href="https://baileyandrew.github.io/Blog/2022tuedec13.html">Bailey’s blog</a> which is built using FastAI’s nbdev package!</p>
+<p>FastAI’s nbdev is a package which includes notebook blogging, which is built on Quarto’s notebook blogging software. Now FastAI say <font color="blue">Quarto</font> is simpler to use if you only want to blog, although you will miss other nbdev features.</p>
 <details>
 <summary>
 <font color="mediumorchid">Failed Quick Attempt Which Almost Worked</font>
 </summary>
 <br>
 <ul>
-<p><font color="mediumorchid">I tried a quick method to fork <a href="https://github.com/BaileyAndrew/Blog">Bailey’s github</a> to my github, creating a new repo. </font></p>
+<p><font color="mediumorchid">I tried a quick method to fork <a href="https://github.com/BaileyAndrew/Blog">Bailey’s github</a> to my github, creating a new repo, without installing any nbdev software. </font></p>
 <p><font color="mediumorchid">I opened github desktop which is connected to my online github account, and chose to clone the online blog repo to a local folder on my computer. Here I can edit the blog files. </font></p>
-<p>I closed github desktop, and can edit the files in VS code now. There are many other ways to clone a repository to your local device!</p>
-<p>I could do another blog on setting up Github in VS code. Making this blog is a good learning experience with Github too (like any casual sustained effort is a good experience).</p>
+<p>I edit the files in VS code. There are many other ways to clone a repository to your local device and edit .ipynb files such as in Jupyter and on Google Colab!</p>
+<p>I could do another blog on setting up Github in VS code. Making this blog is a good learning experience with Github too (like any casual sustained effort using something is a good learning experience).</p>
 <p><font color="mediumorchid">I then deleted all the current blog .ipynb files in the Blog folder locally, and inserted this file into the nbs folder. Here in VS code I now stage, commit and push the changes to the online repo. </font></p>
-<p>nb. The main index file which is the home page which I should edit.</p>
+<p>The main index file, which is the home page, I should edit.</p>
 <p><font color="mediumorchid"> I went into the online github repo and the files had been updated. This .ipynb making a blog notebook was there. I then went into settings and on the side found Pages, and chose the branch to make the website active. I chose the main default branch. I refresh the page, the website is live. </font></p>
 BUT… Things did not work 100% because when I was making the .ipynb blog posts I shouldn’t just copy Bailey’s and make the .ipynb notebooks manually. I should make them with nbdev. This is because the nbdev command to make an ipynb seems to manage and update all the extra files in the repository/folder which embed the notebook in the HTML website.
 </ul>
@@ -300,18 +318,18 @@ Hi Chat_GPT, can you explain what <strong>nbdev_new</strong> is?
 You can then use the ‘nbdev’ library to build and publish your project, as well as to generate documentation from the notebooks in the ‘docs’ directory.
 </ul>
 </details>
-<p>Using Github Desktop to clone a new repo down from Github.com to your local desktop is decently easy, and includes the .git file which connects it with the online branch too which is good. SO actually I am growing used to Github Desktop now, after a couple of stop-start hesitations. Bailey cloned it down using the terminal and the git command “git clone …” and this works well too. There are a few ways to clone an online repo to local storage in a way which creates a .git file.</p>
 <p><font color="mediumorchid">I clone the online empty Github repo <em>notebookBlog</em> down to my local computer using Github Desktop. </font></p>
+<p>Using Github Desktop to clone a new repo down from Github.com to your local desktop is decently easy, and includes the .git file which connects it with the online branch too which is good.</p>
+<p>SO actually I am growing used to using Github Desktop to clone online repos to my local storage now (after a couple of stop-start hesitations). Bailey cloned it down using the terminal and the git command “git clone …” and this works well too. There are a few other ways to clone an online repo to local storage, the main thing is you want the two folders (online and local offline) to be linked by the .git file.</p>
 <p>We need to install nbdev, which contains the python command package <strong>nbdev_new</strong> to instantiate a blog specific to us.</p>
 <p>I realise I should have created a new python environment, so I could fully work out which packages are needed (maybe I already have some installed which I won’t mention here). But I am just using my main environment which already has some packages/modules installed.</p>
 <p>To see more about nbdev, https://pypi.org/project/nbdev/</p>
 <p><font color="mediumorchid">I run <strong>pip install nbdev</strong> in the terminal. </font></p>
 <p><font color="mediumorchid">Then, still roughly following Bailey’s blog, I cd (change directory) into the empty repo/folder in a terminal, and go into python and run the line -</font></p><font color="mediumorchid">
 </font><p><font color="mediumorchid"><strong>nbdev_new</strong> </font></p>
-Things don’t work and I question what I’m doing and go back to the documentation. Here I realise that I am perhaps unnecessarily going through nbdev to use Quarto, and maybe it is simpler to just use Quarto straight. I give up with nbdev and go to use Quarto.
+Things don’t work and I question what I’m doing and go back to the documentation. Here I realise that I am perhaps unnecessarily going through nbdev to use Quarto, and maybe it is simpler to just use Quarto straight. I give up with nbdev and go to use Quarto. I believe it is a little simpler.
 </ul>
 </details>
-<p>To change hard drive, in a windows terminal I google’d it https://www.digitalcitizen.life/command-prompt-how-use-basic-commands/ and it says just to first type D: or C: to change the drive, and then go <strong>cd <em>filepath</em></strong>.</p>
 <p><br> A) <ins>https://quarto.org/docs/websites/website-blog.html</ins></p>
 <p>I am following the steps in this Quarto Website blog guide.</p>
 <p>They say you can use VS Code or the Terminal or RStudio. I use VS Code.</p>
@@ -331,7 +349,7 @@ git branch -M main
 git push -u origin main</code></pre>
 </font><p><font color="#F87217"></font></p>
 <p>I found some of these git commands <a href="https://www.techielass.com/convert-a-folder-to-a-git-repository/">here</a> and the rest on the github website.</p>
-<p>Quarto is, at its heart, just software which slightly tidies up R and Python markdown scripts into cleaner versions, for scientific publishing.</p>
+<p>Also, to change hard drive, in a windows terminal I google’d it https://www.digitalcitizen.life/command-prompt-how-use-basic-commands/ and it says just to first type D: or C: to change the drive, and then go <strong>cd <em>filepath</em></strong>.</p>
 <p>I realised I have to edit the .ipynb notebook file slightly, see here https://quarto.org/docs/tools/vscode.html. I specifically scrolled down to the section on notebooks, Notebook Editor. This gave some of the final information on how to structure the .ipynb or .qmd files.</p>
 <p><font color="#F87217">I add some YAML code in the top cell, to tell the Quarto files how to position the notebook in the website. This YAML cell should be first and of the type Raw. Again see the link above on how to do this. </font></p>
 <p><font color="#F87217">I then make a folder in the posts folder, and copy this .ipynb notebook file there. It should be called index.ipynb so Quarto knows to publish it.</font></p>
