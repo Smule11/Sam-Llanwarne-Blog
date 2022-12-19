@@ -4,6 +4,8 @@ project:
 
 website:
   title: "Sam Llanwarne Blog"
+  site-url: https://smule11.github.io/Sam-Llanwarne-Blog/
+  description: "Sam Llanwarne's blog"
   navbar:
     right:
       - about.qmd
@@ -11,14 +13,15 @@ website:
         href: https://github.com/
       - icon: twitter
         href: https://twitter.com
+        
 format:
   html:
-    theme: cosmo
+    theme:
+      light: darkly
+      dark: flatly
     css: styles.css
 
-theme:
-  light: darkly
-  dark: flatly
+
 
 
 
