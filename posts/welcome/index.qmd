@@ -4,7 +4,9 @@ author: "Sam Llanwarne"
 date: "2022-12-15"
 ---
 
-This is a template post from Quarto. Welcome!
+Welcome!
+
+This is a template post from Quarto. 
 
 ![](thumbnail.jpg)
 

@@ -2,6 +2,7 @@
 title: "Sam Llanwarne Blog"
 listing:
   contents: posts
+  image-height: 200px
   sort: "date desc"
   type: default
   categories: true
