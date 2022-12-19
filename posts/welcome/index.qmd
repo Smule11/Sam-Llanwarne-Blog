@@ -1,11 +1,10 @@
 ---
 title: "Welcome To My Blog"
-author: "Tristan O'Malley"
+author: "Sam Llanwarne"
 date: "2022-12-15"
-categories: [news]
 ---
 
-This is the first post in a Quarto blog. Welcome!
+This is a template post from Quarto. Welcome!
 
 ![](thumbnail.jpg)
 
