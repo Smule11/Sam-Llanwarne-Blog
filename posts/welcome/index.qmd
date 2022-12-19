@@ -6,9 +6,7 @@ date: "2022-12-15"
 
 Welcome!
 
-### <ins>Motivation</ins>
-
-Why?
+### <ins>Why?</ins>
 
 * to practice public writing
 * to practice science communication
@@ -21,7 +19,7 @@ Why?
 
 I also wish to be able to make the blog with minimal effort, while still having a feature rich blog suitable to machine learning coding.
 
-This will become the first entry into my blog online. Each entry will be a .ipynb notebook file embedded into an HTML template.
+This will become the first entry into my blog online. Each entry will be a .ipynb notebook file embedded into this Quarto HTML template.
 
 <br>
 <br>
