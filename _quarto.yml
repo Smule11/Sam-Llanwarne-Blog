@@ -16,5 +16,9 @@ format:
     theme: cosmo
     css: styles.css
 
+theme:
+  light: darkly
+  dark: flatly
+
 
 
