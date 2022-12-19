@@ -148,10 +148,9 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#making-a-blog" id="toc-making-a-blog" class="nav-link active" data-scroll-target="#making-a-blog">Making a Blog</a>
   <ul class="collapse">
-  <li><a href="#short-instructions" id="toc-short-instructions" class="nav-link" data-scroll-target="#short-instructions"><ins>Short Instructions</ins></a></li>
-  <li><a href="#motivation" id="toc-motivation" class="nav-link" data-scroll-target="#motivation"><ins>Motivation</ins></a></li>
+  <li><a href="#shorter-instructions-wo-comments" id="toc-shorter-instructions-wo-comments" class="nav-link" data-scroll-target="#shorter-instructions-wo-comments"><ins>Shorter Instructions (w/o comments)</ins></a></li>
   <li><a href="#other-blogs" id="toc-other-blogs" class="nav-link" data-scroll-target="#other-blogs"><ins>Other blogs</ins></a></li>
-  <li><a href="#commented-instructions" id="toc-commented-instructions" class="nav-link" data-scroll-target="#commented-instructions"><ins>Commented Instructions</ins></a></li>
+  <li><a href="#longer-instructions-w-comments" id="toc-longer-instructions-w-comments" class="nav-link" data-scroll-target="#longer-instructions-w-comments"><ins>Longer Instructions (w/ comments)</ins></a></li>
   </ul></li>
   </ul>
 </nav>
@@ -165,11 +164,21 @@ ul.task-list li input[type="checkbox"] {
 <section id="making-a-blog" class="level1">
 <h1>Making a Blog</h1>
 <p>Here I try to succinctly explain how I made this blog.</p>
-<p>I also wish to be able to make the blog with minimal effort, while still having all the desired functionalities.</p>
+<p>I am following <a href="https://baileyandrew.github.io/Blog/2022tuedec13.html">Bailey’s blog</a> which has led me on a chain through <a href="https://nbdev.fast.ai/tutorials/blogging.html">fastai’s nbdev websites</a> and ultimately to <a href="https://quarto.org/docs/websites/website-blog.html">Quarto’s blogging website</a>.</p>
+<details>
+<summary>
+What are these blogging templates, Jekyll, fastai’s nbdev and Quarto?
+</summary>
+<br>
+<ul>
+Jekyll is Githubs default blogging template. FastAI built FastPages to facilitate notebook embedding in Jekyll blogs. Then Quarto came which is a standalone notebook blogging template. FastAI changed their software to run on Quarto rather than Jekyll. You can access Quarto through FastAI’s nbdev package, but I don’t need all the nbdev extra features, so am just using Quarto now.
+</ul>
+</details>
+<p>Quarto is, at its heart, just software which slightly tidies up R and Python markdown scripts into cleaner documents, for scientific publishing.</p>
 <hr>
 <p><br></p>
-<section id="short-instructions" class="level3">
-<h3 class="anchored" data-anchor-id="short-instructions"><ins>Short Instructions</ins></h3>
+<section id="shorter-instructions-wo-comments" class="level3">
+<h3 class="anchored" data-anchor-id="shorter-instructions-wo-comments"><ins>Shorter Instructions (w/o comments)</ins></h3>
 <p><br> A) Download and Install a couple of things</p>
 <p><font color="#F87217">I create this .ipynb notebook file, called index.ipynb. </font></p>
 <p><font color="#F87217">I <strong>installed</strong> <a href="https://quarto.org/docs/get-started/">Quarto</a></font></p>
@@ -195,34 +204,6 @@ git push -u origin main</code></pre>
 <p><font color="#F87217">I change the pages tab in the settings on Github to say publish from the docs folder, making the website go live. </font></p>
 <p><font color="#F87217">I changed the theme to have a dark and light one, as in the link above.</font></p>
 <p><font color="#F87217"> </font></p>
-<p><br></p>
-</section>
-<section id="motivation" class="level3">
-<h3 class="anchored" data-anchor-id="motivation"><ins>Motivation</ins></h3>
-<p>Why?</p>
-<ul>
-<li>to practice public writing</li>
-<li>to practice science communication</li>
-<li>to summarise technical work I did</li>
-<li>to summarise How To’s such as this, where I do something once, which is not trivial, and I want to record how to do it, for other people and for future reference.</li>
-<li>for my CV</li>
-<li>as a record of papers I’ve read</li>
-<li>as a log of my thoughts</li>
-<li>to inspire others to do the same and to create some sort of small, shallow community online of well intentioned people.</li>
-</ul>
-<p>I am writing things down as I go.</p>
-<p>This will become the first entry into my blog online. Each entry will be a .ipynb notebook file embedded into an HTML template.</p>
-<p>I am following <a href="https://baileyandrew.github.io/Blog/2022tuedec13.html">Bailey’s blog</a> which has led me on a chain through <a href="https://nbdev.fast.ai/tutorials/blogging.html">fastai’s nbdev websites</a> and ultimately to <a href="https://quarto.org/docs/websites/website-blog.html">Quarto’s blogging website</a>.</p>
-<p>Quarto is, at its heart, just software which slightly tidies up R and Python markdown scripts into cleaner documents, for scientific publishing.</p>
-<details>
-<summary>
-What is fastai’s nbdev and Quarto?
-</summary>
-<br>
-<ul>
-Jekyll is Githubs default blogging template. FastAI built FastPages to facilitate notebook embedding in Jekyll blogs. Then Quarto came which is a standalone notebook blogging template. FastAI changed their software to run on Quarto rather than Jekyll. You can access Quarto through FastAI’s nbdev package, but I don’t need all the nbdev extra features, so am just using Quarto now.
-</ul>
-</details>
 <p><br></p>
 </section>
 <section id="other-blogs" class="level3">
@@ -263,8 +244,8 @@ Jekyll is Githubs default blogging template. FastAI built FastPages to facilitat
 </ul>
 <p><br></p>
 </section>
-<section id="commented-instructions" class="level3">
-<h3 class="anchored" data-anchor-id="commented-instructions"><ins>Commented Instructions</ins></h3>
+<section id="longer-instructions-w-comments" class="level3">
+<h3 class="anchored" data-anchor-id="longer-instructions-w-comments"><ins>Longer Instructions (w/ comments)</ins></h3>
 <p><font color="F87217">I created this notebook file you’re reading. (I did this by creating a text file and changing the name from “untitled.txt” to “index.ipynb”. Changing the file extension from .txt to .ipynb is important.)</font></p>
 <p>To open and read this .ipynb file I am editing it in Visual Studio Code. (A lot of people use Jupyter Notebook.)</p>
 <details>

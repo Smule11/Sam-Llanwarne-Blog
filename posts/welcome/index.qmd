@@ -6,7 +6,28 @@ date: "2022-12-15"
 
 Welcome!
 
-This is a template post from Quarto. 
+### <ins>Motivation</ins>
+
+Why?
+
+* to practice public writing
+* to practice science communication
+* to summarise technical work I did
+* to summarise How To's such as this, where I do something once, which is not trivial, and I want to record how to do it, for other people and for future reference.
+* for my CV
+* as a record of papers I've read
+* as a log of my thoughts
+* to inspire others to do the same and to create some sort of small, shallow community online of well intentioned people.
+
+I also wish to be able to make the blog with minimal effort, while still having a feature rich blog suitable to machine learning coding.
+
+This will become the first entry into my blog online. Each entry will be a .ipynb notebook file embedded into an HTML template.
+
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ![](thumbnail.jpg)
 
