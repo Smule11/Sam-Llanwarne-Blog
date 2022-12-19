@@ -1,12 +1,12 @@
 ---
-title: "Welcome To My Blog"
+title: "Welcome!"
 author: "Sam Llanwarne"
 date: "2022-12-15"
 ---
 
-Welcome!
+Welcome to my blog...
 
-### <ins>Why?</ins>
+<ins>Why?</ins>
 
 * to practice public writing
 * to practice science communication
