@@ -39,6 +39,6 @@
     "href": "posts/things-to-do-in-blog/index.html",
     "title": "To Do",
     "section": "",
-    "text": "To change\nMaking a list of things to do here…\n\nTo add a comments section\nTo understand why .ipynb files throw a soft error while .qmd files are fine.\n\n.ipynb files throw a “listing contains no meta data” error while .qmd files don’t. Also, I think .qmd files don’t auto render when I save but .ipynb do even though I thought I changed that setting. Finally, I hope the .ipynb file doesn’t try and rerun all the cells when I save, as I also changed that setting…\n\nDo the About section\nDo the social links"
+    "text": "To change\nMaking a list of things to do here…\n\nTo add a comments section\nTo understand why .ipynb files throw a soft error while .qmd files are fine.\n\n.ipynb files throw a “listing contains no meta data” error while .qmd files don’t. Also, I think .qmd files don’t auto render when I save but .ipynb do even though I thought I changed that setting. Finally, I hope the .ipynb file doesn’t try and rerun all the cells when I save, as I also changed that setting…\n\nDo the About section\nDo the social links\nDo a .gitignore as it says in the Quarto guide, to reduce the number of commits. Some files don’t matter?"
   }
 ]
