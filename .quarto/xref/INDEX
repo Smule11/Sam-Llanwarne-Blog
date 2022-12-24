@@ -22,5 +22,44 @@
   },
   "posts/things-to-do-in-blog/index.ipynb": {
     "index.html": "68432288"
+  },
+  "academicFormations.ipynb": {
+    "academicFormations.html": "9025083e"
+  },
+  "blog.ipynb": {
+    "blog.html": "f12348b3"
+  },
+  "howTo.ipynb": {
+    "howTo.html": "20a5a5be"
+  },
+  "index.ipynb": {
+    "index.html": "540d6887"
+  },
+  "old_academicFormations.qmd": {
+    "old_academicFormations.html": "7f2f3ba6"
+  },
+  "old_blog.qmd": {
+    "old_blog.html": "76ce4a97"
+  },
+  "old_howTo.qmd": {
+    "old_howTo.html": "c8e221f0"
+  },
+  "old_index.qmd": {
+    "old_index.html": "df31f6c6"
+  },
+  "old_paperSummaries.qmd": {
+    "old_paperSummaries.html": "3f995f66"
+  },
+  "paperSummaries.ipynb": {
+    "paperSummaries.html": "e97ab217"
+  },
+  "posts/making-an-app/index.ipynb": {
+    "index.html": "b302f3cb"
+  },
+  "howTo/making-a-blog/index.ipynb": {
+    "index.html": "dd96d77c"
+  },
+  "howTo/making-an-app/index.ipynb": {
+    "index.html": "aa0423d7"
   }
 }

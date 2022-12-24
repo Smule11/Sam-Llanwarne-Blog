@@ -1,10 +1,46 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/academicFormations.html",
+    "items": []
+  },
+  {
+    "listing": "/blog.html",
     "items": [
-      "/posts/making-a-blog/index.html",
       "/posts/things-to-do-in-blog/index.html",
       "/posts/welcome/index.html"
     ]
+  },
+  {
+    "listing": "/howTo.html",
+    "items": [
+      "/howTo/making-an-app/index.html",
+      "/howTo/making-a-blog/index.html"
+    ]
+  },
+  {
+    "listing": "/old_academicFormations.html",
+    "items": []
+  },
+  {
+    "listing": "/old_blog.html",
+    "items": [
+      "/posts/things-to-do-in-blog/index.html",
+      "/posts/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/old_howTo.html",
+    "items": [
+      "/howTo/making-an-app/index.html",
+      "/howTo/making-a-blog/index.html"
+    ]
+  },
+  {
+    "listing": "/old_paperSummaries.html",
+    "items": []
+  },
+  {
+    "listing": "/paperSummaries.html",
+    "items": []
   }
 ]

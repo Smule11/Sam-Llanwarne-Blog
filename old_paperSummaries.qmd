@@ -1,7 +1,7 @@
 ---
-title: "Sam Llanwarne's Blog"
+title: "Paper Summaries"
 listing:
-  contents: posts
+  contents: paperSummaries
   image-height: 200px
   sort: "date desc"
   type: default

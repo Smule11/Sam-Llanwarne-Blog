@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Sam Llanwarne">
-<meta name="dcterms.date" content="2022-12-15">
+<meta name="dcterms.date" content="2022-12-20">
 
-<title>SamLlan Blog - Welcome!</title>
+<title>SamLlan Blog - Making an App</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,7 +67,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -121,65 +121,186 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Welcome!</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Sam Llanwarne </p>
-            </div>
-    </div>
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">December 15, 2022</p>
-      </div>
-    </div>
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#making-an-app" id="toc-making-an-app" class="nav-link active" data-scroll-target="#making-an-app">Making an App</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Making an App</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">How To</div>
+  </div>
+  </div>
 
 
 
+<div class="quarto-title-meta">
 
-<p>Welcome to my blog…</p>
-<ins>
-Why?
-</ins>
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Sam Llanwarne </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 20, 2022</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="making-an-app" class="level1">
+<h1>Making an App</h1>
+<p>Here I am recording and going over the steps I took to make an app.</p>
+<p>So the first thing I am thinking is to make a web app and then publish this in the play store and maybe the app store, as then there is only one code base and it should work on the computer and mobile very well too.</p>
+<p>Web apps are now growing in capability to match the level of device integration as native apps. These web apps are known as progressive web apps (PWAs).</p>
+<p>But you can also turn a PWA into a native android app [how? I am looking into this now]. So from one codebase you can have a progressive web app (which is a website which also can be isntalled somehow) and you can also have this packaged as a native app in the play store. Not sure about the apple store, but won’t do that anyway, unless the app was profitable because it costs more.</p>
+<p>I asked chatGPT some questions, and here are it’s answers too.</p>
+<details>
+<summary>
+How to start making a progressive web app?
+</summary>
+<p><br></p>
 <ul>
-<li>to practice public writing</li>
-<li>to practice science communication</li>
-<li>to summarise technical work I did</li>
-<li>to summarise How To’s such as this, where I do something once, which is not trivial, and I want to record how to do it, for other people and for future reference.</li>
-<li>for my CV</li>
-<li>as a record of papers I’ve read</li>
-<li>as a log of my thoughts</li>
-<li>to inspire others to do the same and to create some sort of small, shallow community online of well intentioned people.</li>
+<p>Progressive Web Apps (PWAs) are web applications that are designed to provide a native app-like experience to users. They use modern web technologies to deliver a fast, reliable, and engaging experience on both desktop and mobile devices.</p>
+<p>To get started with building a Progressive Web App, you’ll need to do the following:</p>
+<ol type="1">
+<li><p>Choose a framework: There are several frameworks and libraries available that can help you build a PWA, such as React, Angular, Vue.js, and more. Choose one that you are comfortable with and that meets the needs of your app.</p></li>
+<li><p>Set up a local development environment: You’ll need to set up a local development environment on your computer to build and test your PWA. This typically involves installing a text editor, a local web server, and any necessary dependencies.</p></li>
+<li><p>Create the app structure: Set up the basic structure of your PWA, including the HTML, CSS, and JavaScript files that will make up the app. You can use a template or start from scratch, depending on your preferences and the needs of your app.</p></li>
+<li><p>Add a manifest file: A manifest file is a JSON file that provides metadata about your PWA, such as its name, icons, and theme color. It helps the browser understand how to display and interact with your PWA.</p></li>
+<li><p>Test your app: Test your PWA in a web browser to ensure that it works as expected. You can also use tools like Lighthouse to audit your PWA and identify any issues that need to be addressed.</p></li>
+<li><p>Deploy your app: Once you’ve tested and debugged your PWA, you can deploy it to a hosting provider or publish it to a platform like the Google Play Store or the Apple App Store.</p></li>
+</ol>
+I hope this helps! Let me know if you have any questions or need more guidance as you build your Progressive Web App.
 </ul>
-<p>I also wish to be able to make the blog with minimal effort, while still having a feature rich blog suitable to machine learning coding.</p>
-<p>This will become the first entry into my blog online. Each entry will be a .ipynb notebook file embedded into this Quarto HTML template.</p>
-<p><br> <br> <br> <br> <br></p>
-<p><img src="thumbnail.jpg" class="img-fluid"></p>
-<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+</details>
+<p><br></p>
+<details>
+<summary>
+What is the simplest code that encapsulates a complete progressive web app?
+</summary>
+<p><br></p>
+<ul>
+<p>A Progressive Web App (PWA) is a web application that is designed to provide a native app-like experience to users. It uses modern web technologies to deliver a fast, reliable, and engaging experience on both desktop and mobile devices.</p>
+<p>To create a basic Progressive Web App, you will need to create the following files:</p>
+<ol type="1">
+<li><p>An HTML file: This file will contain the markup for the structure and content of your PWA.</p></li>
+<li><p>A CSS file: This file will contain the styles for your PWA, including layout, color, and font.</p></li>
+<li><p>A JavaScript file: This file will contain the logic and functionality of your PWA.</p></li>
+<li><p>A manifest file: This is a JSON file that provides metadata about your PWA, such as its name, icons, and theme color. It helps the browser understand how to display and interact with your PWA.</p></li>
+</ol>
+<p>Here is an example of a simple HTML file for a PWA that displays a greeting:</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;My PWA&lt;/title&gt;
+    &lt;link rel="manifest" href="/manifest.json"&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello, world!&lt;/h1&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<p>And here is an example of a simple manifest file:</p>
+<pre><code>{
+  "name": "My PWA",
+  "short_name": "My PWA",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}</code></pre>
+This is just a basic example of a Progressive Web App, and there are many more features and capabilities that you can add to your PWA. I hope this helps! Let me know if you have any questions.
+</ul>
+</details>
+<p><br></p>
+<details>
+<summary>
+How to simply publish a PWA on the play store?
+</summary>
+<p><br></p>
+<ul>
+<p>To publish a Progressive Web App (PWA) on the Google Play Store, you will need to follow these steps:</p>
+<ol type="1">
+<li><p>Create a Google Play Developer account: If you don’t already have one, you will need to create a Google Play Developer account to publish your PWA on the Play Store. This requires a one-time fee of $25.</p></li>
+<li><p>Package your PWA as an Android app: You will need to package your PWA as an Android app so that it can be uploaded to the Play Store. There are several tools and libraries available that can help you do this, such as the PWA Builder, Trusted Web Activities, or the Chrome Dev Editor.</p></li>
+<li><p>Prepare your app for release: Before you can publish your PWA on the Play Store, you will need to prepare it for release by completing a number of tasks, such as adding an app icon, creating screenshots, and writing a description.</p></li>
+<li><p>Submit your app: Once your PWA is ready for release, you can submit it to the Play Store using the Google Play Console. This involves uploading your app, setting up pricing and distribution, and providing any necessary information about your app.</p></li>
+<li><p>Test and publish your app: After you have submitted your PWA, the Google Play team will review it to ensure that it meets their guidelines and standards. If it is approved, it will be published on the Play Store for users to download and install.</p></li>
+</ol>
+I hope this helps! Let me know if you have any questions or need more guidance as you publish your PWA on the Google Play Store.
+</ul>
+</details>
+<p><br></p>
+<details>
+<summary>
+How to simply package your PWA as an Android app?
+</summary>
+<p><br></p>
+<ul>
+<p>To package a Progressive Web App (PWA) as an Android app, you will need to use a tool or library that can generate an Android Package Kit (APK) file from your PWA. There are several options available for doing this, including the following:</p>
+<ol type="1">
+<li><p>PWA Builder: PWA Builder is an open-source tool that can help you package your PWA as an APK file. It uses Trusted Web Activities (TWAs) to create an Android app that can be installed on a device and launched from the home screen. To use PWA Builder, you will need to upload your PWA’s manifest file and select the options you want, such as the app name, icon, and splash screen.</p></li>
+<li><p>Trusted Web Activities: Trusted Web Activities (TWAs) are a way to open a PWA in a full-screen browser window on an Android device, with no browser UI. TWAs are supported by the Google Play Store, so you can publish your PWA as an Android app using TWAs. To create a TWA, you will need to create an Android Studio project, add the Trusted Web Activities library, and configure your PWA’s manifest file.</p></li>
+<li><p>Chrome Dev Editor: The Chrome Dev Editor is an Integrated Development Environment (IDE) for building and debugging web apps. It includes a feature called “Create Android App” that can package your PWA as an APK file. To use this feature, you will need to open your PWA in the Chrome Dev Editor, select “Create Android App” from the menu, and follow the prompts to configure your app.</p></li>
+</ol>
+I hope this helps! Let me know if you have any questions or need more guidance as you package your PWA as an Android app.
+</ul>
+</details>
+<p><br></p>
+<details>
+<summary>
+Can you explain what all this about the Trusted Web Activity and Trusted Web Activities are?
+</summary>
+<br>
+<ul>
+<p>Trusted Web Activities (TWAs) are a way to integrate web content into a native Android app using the Chrome browser. TWAs allow developers to build apps that use the full capabilities of the web, while still providing the security and user experience of a native app.</p>
+<p>A Trusted Web Activity is a special type of Android activity that can be launched from a native app. It displays web content using a fully-fledged version of Chrome, but without the usual Chrome browser interface. This allows developers to create a seamless user experience, as the web content appears to be part of the native app.</p>
+<p>To use a Trusted Web Activity, the developer must first create a Digital Asset Links file and host it on their website. This file verifies the association between the website and the native app, and allows the app to be launched as a Trusted Web Activity.</p>
+TWAs are useful for a variety of scenarios, such as displaying web content in a standalone app, creating a hybrid app that combines web and native functionality, or providing web-based access to secure resources. They are also a good choice for developers who want to reuse existing web code in a native app, or who want to take advantage of the latest web technologies.
+</ul>
+</details>
+<p><br></p>
+<p>Useful links include:</p>
+<ol type="1">
+<li><p>https://developers.google.com/codelabs/pwa-in-play</p></li>
+<li></li>
+</ol>
+<p>Pseudo Next Steps:</p>
+<p>Need bubblewrap to turn PWA into app. This comes with a lot of code dependencies, including node.js, java development kit and android command line tools, along with bubblewrap installation itself.</p>
+<p>Making just a pwa online, and making it installable, fast, reliable, and feature-rich might be enough of an effort.</p>
+<p>Following the bubblewrap steps in link 1 above does seem doable, but at the same time, I am wondering whether it is worthing making the PWA first.</p>
+<p>Probably not, better to just make the most basic app first, and then make a slightly more complex PWA and make that an app, and then make the most complex PWA.</p>
+<p>Making the app - a logger could be okay, mainly want an API to local storage and microphone.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

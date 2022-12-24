@@ -3,21 +3,19 @@ project:
   output-dir: docs
 
 website:
-  title: "Sam Llanwarne's Blog"
+  title: "SamLlan Blog"
   site-url: https://smule11.github.io/Sam-Llanwarne-Blog/
   description: "Sam Llanwarne's blog"
   navbar:
     left:
-      - text: "Home"
-        file: index.qmd
       - text: "Paper Summaries"
-        file: paperSummaries.qmd
+        file: paperSummaries.ipynb
       - text: "Academic Formation"
-        file: academicFormation.qmd
+        file: academicFormations.ipynb
       - text: "How To"
-        file: howTo.qmd
+        file: howTo.ipynb
       - text: "Blog"
-        file: blog.qmd
+        file: blog.ipynb
     right:
       - icon: github
         href: https://github.com/
