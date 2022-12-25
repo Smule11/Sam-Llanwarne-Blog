@@ -1,59 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://smule11.github.io/Sam-Llanwarne-Blog/academicFormations/things-to-write-tags/index.html</loc>
+    <lastmod>2022-12-24T17:47:48.465Z</lastmod>
+  </url>
+  <url>
     <loc>https://smule11.github.io/Sam-Llanwarne-Blog/academicFormations.html</loc>
-    <lastmod>2022-12-24T15:56:49.245Z</lastmod>
+    <lastmod>2022-12-24T17:56:37.671Z</lastmod>
   </url>
   <url>
     <loc>https://smule11.github.io/Sam-Llanwarne-Blog/blog.html</loc>
-    <lastmod>2022-12-24T15:56:46.289Z</lastmod>
+    <lastmod>2022-12-24T17:51:50.613Z</lastmod>
+  </url>
+  <url>
+    <loc>https://smule11.github.io/Sam-Llanwarne-Blog/blogPosts/things-to-do-in-blog/index.html</loc>
+    <lastmod>2022-12-24T17:47:49.683Z</lastmod>
+  </url>
+  <url>
+    <loc>https://smule11.github.io/Sam-Llanwarne-Blog/blogPosts/welcome/index.html</loc>
+    <lastmod>2022-12-24T17:47:50.088Z</lastmod>
   </url>
   <url>
     <loc>https://smule11.github.io/Sam-Llanwarne-Blog/howTo/making-a-blog/index.html</loc>
-    <lastmod>2022-12-24T15:50:54.750Z</lastmod>
+    <lastmod>2022-12-24T17:47:50.707Z</lastmod>
   </url>
   <url>
     <loc>https://smule11.github.io/Sam-Llanwarne-Blog/howTo/making-an-app/index.html</loc>
-    <lastmod>2022-12-24T15:50:55.294Z</lastmod>
+    <lastmod>2022-12-24T17:47:51.243Z</lastmod>
+  </url>
+  <url>
+    <loc>https://smule11.github.io/Sam-Llanwarne-Blog/howTo/things-to-make-guides-for-tags/index.html</loc>
+    <lastmod>2022-12-24T17:47:51.625Z</lastmod>
   </url>
   <url>
     <loc>https://smule11.github.io/Sam-Llanwarne-Blog/howTo.html</loc>
-    <lastmod>2022-12-24T15:57:32.764Z</lastmod>
+    <lastmod>2022-12-24T17:56:40.394Z</lastmod>
   </url>
   <url>
     <loc>https://smule11.github.io/Sam-Llanwarne-Blog/index.html</loc>
-    <lastmod>2022-12-24T15:50:56.108Z</lastmod>
+    <lastmod>2022-12-24T17:49:36.178Z</lastmod>
   </url>
   <url>
     <loc>https://smule11.github.io/Sam-Llanwarne-Blog/old_academicFormations.html</loc>
-    <lastmod>2022-12-24T15:50:56.489Z</lastmod>
+    <lastmod>2022-12-24T17:47:52.861Z</lastmod>
   </url>
   <url>
     <loc>https://smule11.github.io/Sam-Llanwarne-Blog/old_blog.html</loc>
-    <lastmod>2022-12-24T15:50:56.891Z</lastmod>
+    <lastmod>2022-12-24T17:47:53.250Z</lastmod>
   </url>
   <url>
     <loc>https://smule11.github.io/Sam-Llanwarne-Blog/old_howTo.html</loc>
-    <lastmod>2022-12-24T15:50:57.307Z</lastmod>
+    <lastmod>2022-12-24T17:47:53.695Z</lastmod>
   </url>
   <url>
     <loc>https://smule11.github.io/Sam-Llanwarne-Blog/old_index.html</loc>
-    <lastmod>2022-12-24T15:50:57.677Z</lastmod>
+    <lastmod>2022-12-24T17:47:54.067Z</lastmod>
   </url>
   <url>
     <loc>https://smule11.github.io/Sam-Llanwarne-Blog/old_paperSummaries.html</loc>
-    <lastmod>2022-12-24T15:50:58.082Z</lastmod>
+    <lastmod>2022-12-24T17:47:54.495Z</lastmod>
+  </url>
+  <url>
+    <loc>https://smule11.github.io/Sam-Llanwarne-Blog/paperSummaries/things-to-read-tags/index.html</loc>
+    <lastmod>2022-12-24T17:47:54.879Z</lastmod>
   </url>
   <url>
     <loc>https://smule11.github.io/Sam-Llanwarne-Blog/paperSummaries.html</loc>
-    <lastmod>2022-12-24T15:56:25.376Z</lastmod>
-  </url>
-  <url>
-    <loc>https://smule11.github.io/Sam-Llanwarne-Blog/posts/things-to-do-in-blog/index.html</loc>
-    <lastmod>2022-12-24T15:50:58.897Z</lastmod>
-  </url>
-  <url>
-    <loc>https://smule11.github.io/Sam-Llanwarne-Blog/posts/welcome/index.html</loc>
-    <lastmod>2022-12-24T15:50:59.314Z</lastmod>
+    <lastmod>2022-12-24T17:55:10.795Z</lastmod>
   </url>
 </urlset>

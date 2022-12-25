@@ -4,7 +4,8 @@
       "academicFormations"
     ],
     "blog.ipynb": [
-      "posts"
+      "posts",
+      "blogPosts"
     ],
     "howTo.ipynb": [
       "howTo"

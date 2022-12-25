@@ -61,5 +61,20 @@
   },
   "howTo/making-an-app/index.ipynb": {
     "index.html": "aa0423d7"
+  },
+  "academicFormations/things-to-write-tags/index.ipynb": {
+    "index.html": "fb92fa0b"
+  },
+  "howTo/things-to-make-guides-for-tags/index.ipynb": {
+    "index.html": "2829ad30"
+  },
+  "paperSummaries/things-to-read-tags/index.ipynb": {
+    "index.html": "46a201a0"
+  },
+  "blogPosts/things-to-do-in-blog/index.ipynb": {
+    "index.html": "73c3305e"
+  },
+  "blogPosts/welcome/index.qmd": {
+    "index.html": "ada7286e"
   }
 }

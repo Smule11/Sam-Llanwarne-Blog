@@ -1,46 +1,53 @@
 [
   {
     "listing": "/academicFormations.html",
-    "items": []
+    "items": [
+      "/academicFormations/things-to-write-tags/index.html"
+    ]
   },
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/things-to-do-in-blog/index.html",
-      "/posts/welcome/index.html"
+      "/blogPosts/things-to-do-in-blog/index.html",
+      "/blogPosts/welcome/index.html"
     ]
   },
   {
     "listing": "/howTo.html",
     "items": [
       "/howTo/making-an-app/index.html",
-      "/howTo/making-a-blog/index.html"
+      "/howTo/making-a-blog/index.html",
+      "/howTo/things-to-make-guides-for-tags/index.html"
     ]
   },
   {
     "listing": "/old_academicFormations.html",
-    "items": []
+    "items": [
+      "/academicFormations/things-to-write-tags/index.html"
+    ]
   },
   {
     "listing": "/old_blog.html",
-    "items": [
-      "/posts/things-to-do-in-blog/index.html",
-      "/posts/welcome/index.html"
-    ]
+    "items": []
   },
   {
     "listing": "/old_howTo.html",
     "items": [
       "/howTo/making-an-app/index.html",
-      "/howTo/making-a-blog/index.html"
+      "/howTo/making-a-blog/index.html",
+      "/howTo/things-to-make-guides-for-tags/index.html"
     ]
   },
   {
     "listing": "/old_paperSummaries.html",
-    "items": []
+    "items": [
+      "/paperSummaries/things-to-read-tags/index.html"
+    ]
   },
   {
     "listing": "/paperSummaries.html",
-    "items": []
+    "items": [
+      "/paperSummaries/things-to-read-tags/index.html"
+    ]
   }
 ]

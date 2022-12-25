@@ -72,9 +72,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -172,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Meta">Meta <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -185,7 +185,41 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="Meta" data-listing-date-sort="1671408000000" data-listing-file-modified-sort="1671904612165" data-listing-reading-time-sort="0.5">
+<div class="thumbnail">
+<p><a href="./academicFormations/things-to-write-tags/index.html"> <img src="./academicFormations/things-to-write-tags/max-saeling-_CGxNOLM1gQ-unsplash.jpg" class="thumnail-image" style="height: 200px;"> </a></p>
+</div>
+<div class="body">
+<a href="./academicFormations/things-to-write-tags/index.html">
+<h3 class="no-anchor listing-title">
+Plan of things I will write about
+</h3>
+<div class="listing-subtitle">
 
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Meta'); return false;">
+Meta
+</div>
+</div>
+<a href="./academicFormations/things-to-write-tags/index.html">
+<div class="listing-description">
+<!-- desc(5A0113B34292)[max=175]:academicFormations/things-to-write-tags/index.html -->
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./academicFormations/things-to-write-tags/index.html">
+<div class="listing-date">
+Dec 19, 2022
+</div>
+<div class="listing-author">
+Sam Llanwarne
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
