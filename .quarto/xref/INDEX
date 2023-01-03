@@ -76,5 +76,14 @@
   },
   "blogPosts/welcome/index.qmd": {
     "index.html": "ada7286e"
+  },
+  "academicFormations/contents/index.ipynb": {
+    "index.html": "df7a99fc"
+  },
+  "blogPosts/future-blog-post-ideas/index.ipynb": {
+    "index.html": "92062b5e"
+  },
+  "blogPosts/things-to-do-on-this_website/index.ipynb": {
+    "index.html": "9359c8f9"
   }
 }

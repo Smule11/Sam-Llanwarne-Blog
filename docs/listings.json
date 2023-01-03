@@ -2,13 +2,15 @@
   {
     "listing": "/academicFormations.html",
     "items": [
+      "/academicFormations/contents/index.html",
       "/academicFormations/things-to-write-tags/index.html"
     ]
   },
   {
     "listing": "/blog.html",
     "items": [
-      "/blogPosts/things-to-do-in-blog/index.html",
+      "/blogPosts/future-blog-post-ideas/index.html",
+      "/blogPosts/things-to-do-on-this_website/index.html",
       "/blogPosts/welcome/index.html"
     ]
   },
@@ -23,6 +25,7 @@
   {
     "listing": "/old_academicFormations.html",
     "items": [
+      "/academicFormations/contents/index.html",
       "/academicFormations/things-to-write-tags/index.html"
     ]
   },

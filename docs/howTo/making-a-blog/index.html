@@ -96,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">How To</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../blogPosts.ipynb">
+    <a class="nav-link" href="../../blog.html">
  <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -129,12 +129,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#making-a-blog" id="toc-making-a-blog" class="nav-link active" data-scroll-target="#making-a-blog">Making a Blog</a>
-  <ul class="collapse">
-  <li><a href="#shorter-instructions-wo-comments" id="toc-shorter-instructions-wo-comments" class="nav-link" data-scroll-target="#shorter-instructions-wo-comments"><ins>Shorter Instructions (w/o comments)</ins></a></li>
+  <li><a href="#instructions" id="toc-instructions" class="nav-link active" data-scroll-target="#instructions"><ins>Instructions</ins></a></li>
   <li><a href="#other-blogs" id="toc-other-blogs" class="nav-link" data-scroll-target="#other-blogs"><ins>Other blogs</ins></a></li>
-  <li><a href="#longer-instructions-w-comments" id="toc-longer-instructions-w-comments" class="nav-link" data-scroll-target="#longer-instructions-w-comments"><ins>Longer Instructions (w/ comments)</ins></a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -173,8 +169,6 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="making-a-blog" class="level1">
-<h1>Making a Blog</h1>
 <p>Here I try to succinctly explain how I made this blog…</p>
 <p>I am following <a href="https://baileyandrew.github.io/Blog/2022tuedec13.html">Bailey’s blog</a> which has led me on a chain through <a href="https://nbdev.fast.ai/tutorials/blogging.html">fastai’s nbdev websites</a> and ultimately to <a href="https://quarto.org/docs/websites/website-blog.html">Quarto’s blogging website</a>.</p>
 <details>
@@ -189,16 +183,33 @@ Jekyll is Githubs default blogging template. FastAI built FastPages to facilitat
 <p>Quarto is, at its heart, just software which slightly tidies up R and Python markdown scripts into cleaner documents, for scientific publishing.</p>
 <hr>
 <p><br></p>
-<section id="shorter-instructions-wo-comments" class="level3">
-<h3 class="anchored" data-anchor-id="shorter-instructions-wo-comments"><ins>Shorter Instructions (w/o comments)</ins></h3>
-<p><br> A) Download and Install a couple of things</p>
+<section id="instructions" class="level3">
+<h3 class="anchored" data-anchor-id="instructions"><ins>Instructions</ins></h3>
+<p><br> A) Download and Install Quarto. Create empty github repo and empty local folder.</p>
 <p><font color="#F87217">I create this .ipynb notebook file, called index.ipynb. </font></p>
-<p><font color="#F87217">I <strong>installed</strong> <a href="https://quarto.org/docs/get-started/">Quarto</a></font></p>
-<p><font color="#F87217">I <strong>installed</strong> the Quarto extension in <a href="https://quarto.org/docs/get-started/hello/vscode.html">VS Code</a> </font></p>
+<p><font color="#F87217">I <strong>installed</strong> <a href="https://quarto.org/docs/get-started/">Quarto</a>.</font></p>
+<p><font color="#F87217">I <strong>installed</strong> the Quarto extension in <a href="https://quarto.org/docs/get-started/hello/vscode.html">VS Code</a> (can also do this in R studio, Jupyter or using the terminal),</font></p>
 <p><font color="#F87217">I create an empty github repo online, with no readme file.</font></p>
 <p><font color="#F87217">I create an empty folder/directory/repo locally/offline with a similar/the same name.</font></p>
-<p><br> B) https://quarto.org/docs/websites/website-blog.html</p>
-<p><font color="#F87217">I open this folder in VS Code and begin to follow the instructions here https://quarto.org/docs/websites/website-blog.html</font></p>
+<details>
+<summary>
+Additional links and thoughts
+</summary>
+<br>
+<ul>
+<p>I found some of these git commands <a href="https://www.techielass.com/convert-a-folder-to-a-git-repository/">here</a> and the rest on the github website.</p>
+<p>Also, to change hard drive, in a windows terminal I google’d it https://www.digitalcitizen.life/command-prompt-how-use-basic-commands/ and it says just to first type D: or C: to change the drive, and then go <strong>cd <em>filepath</em></strong>.</p>
+<p>I realised I have to edit the .ipynb notebook file slightly, see here https://quarto.org/docs/tools/vscode.html. I specifically scrolled down to the section on notebooks, Notebook Editor. This gave some of the final information on how to structure the .ipynb or .qmd files.</p>
+</ul>
+</details>
+<p><br></p>
+<ol start="2" type="A">
+<li>Auto-populate local folder and push online</li>
+</ol>
+<ul>
+<p>Full instructions here - <a href="https://quarto.org/docs/websites/website-blog.html">https://quarto.org/docs/websites/website-blog.html</a></p>
+</ul>
+<p><font color="#F87217">I open this folder in VS Code.</font></p>
 <p><font color="#F87217"> do ctrl-shit-p and type Quarto Create Project, click it, click create blog, and create a new folder for the blog files. </font></p>
 <p><font color="#F87217">I then go into the terminal and cd into this new folder, and run these commands, to move the local files online.</font></p>
 <pre><code>git init 
@@ -209,13 +220,28 @@ git branch -M main
 git push -u origin main</code></pre>
 <p><font color="#F87217">I add some YAML code in the top cell, to tell the Quarto files how to position the notebook in the website. This YAML cell should be first and of the type Raw. Again see the link above on how to do this. </font></p>
 <p><font color="#F87217">I then make a folder in the posts folder, and copy this .ipynb notebook file there. It should be called index.ipynb so Quarto knows to publish it.</font></p>
-<p><br> C) <ins>https://quarto.org/docs/publishing/github-pages.html</ins></p>
+<p>Apparently I should add a .gitignore to ignore a couple of the crazy folders or something, as they might change a lot.</p>
+<p><br></p>
+<ol start="3" type="A">
+<li>Finishing touches.</li>
+</ol>
+<ul>
+<p>Full instructions here - <a href="https://quarto.org/docs/publishing/github-pages.html">https://quarto.org/docs/publishing/github-pages.html</a></p>
+</ul>
 <p><font color="#F87217">I change the _quarto.yml file, to say publish to docs, not in posts. </font></p>
 <p><font color="#F87217">I make sure I am in the right folder/directory and add a .nojekyll as they say in the link above. </font></p>
 <p><font color="#F87217">I can push the local changes to github online through VS code.</font></p>
 <p><font color="#F87217">I change the pages tab in the settings on Github to say publish from the docs folder, making the website go live. </font></p>
 <p><font color="#F87217">I changed the theme to have a dark and light one, as in the link above.</font></p>
-<p><font color="#F87217"> </font></p>
+<details>
+<summary>
+Additional links and thoughts
+</summary>
+<br>
+<ul>
+<p>The YAML at the top of each .ipynb or .qmd file controls the appearance of that file. e.g. * tags * contents side bar * date * blog name * potentially the blog summary * position of features, colours etc.</p>
+</ul>
+</details>
 <p><br></p>
 </section>
 <section id="other-blogs" class="level3">
@@ -227,16 +253,17 @@ git push -u origin main</code></pre>
 <li><a href="https://fabianfuchsml.github.io/">Fabian Fuchs</a> | <a href="">github code</a></li>
 </ul>
 <p>But I agreed with Bailey, that doing a template that centres on .ipynb notebooks rather than straight .md markdown files is slightly better, as notebooks include markdown cells, but also code cells. So you can run code offline and the blog post can be more easily code centred. Also other people can copy the notebook and run it themselves which is useful.</p>
-<p>A Nbdev Blog</p>
+<p>Nbdev Blogs</p>
 <ul>
 <li><a href="https://baileyandrew.github.io/Blog/2022tuedec13.html">Bailey’s blog</a>.</li>
 </ul>
-<p>A Quarto blog</p>
+<p>Quarto blogs</p>
 <ul>
 <li><a href="https://blog.djnavarro.net/">Danielle Navarro</a> | <a href="https://github.com/djnavarro/quarto-blog/">github code</a>
 <ul>
 <li>Also her main website homepage, links to her blog, <a href="https://djnavarro.net/">here</a> | <a href="https://github.com/djnavarro/djnavarro.github.io/blob/main/docs/index.html">github code</a></li>
 </ul></li>
+<li><a href="https://samanthacsik.github.io/talks_workshops/2022-08-05-creating-your-personal-website-using-quarto/">Samantha Csik</a> | <a href="https://github.com/samanthacsik/samanthacsik.github.io">github code</a></li>
 </ul>
 <p>A more homemade blog:</p>
 <ul>
@@ -258,18 +285,13 @@ git push -u origin main</code></pre>
 </ul></li>
 </ul>
 <p><br></p>
-</section>
-<section id="longer-instructions-w-comments" class="level3">
-<h3 class="anchored" data-anchor-id="longer-instructions-w-comments"><ins>Longer Instructions (w/ comments)</ins></h3>
-<p><font color="F87217">I created this notebook file you’re reading. (I did this by creating a text file and changing the name from “untitled.txt” to “index.ipynb”. Changing the file extension from .txt to .ipynb is important.)</font></p>
-<p>To open and read this .ipynb file I am editing it in Visual Studio Code. (A lot of people use Jupyter Notebook.)</p>
 <details>
 <summary>
-<font color="mediumorchid">Following Bailey Blog to build FastAI’s nbdev blog (stopped halfway through and changed to pure Quarto)</font>
+<font color="mediumorchid">Initial attempt making the blog</font>
 </summary>
 <br>
 <ul>
-<p>I went to follow <a href="https://baileyandrew.github.io/Blog/2022tuedec13.html">Bailey’s blog</a> which is built using FastAI’s nbdev package!</p>
+<p>I went to follow <a href="https://baileyandrew.github.io/Blog/2022tuedec13.html">Bailey’s blog</a> which is built using FastAI’s nbdev package! I stopped halfway through and changed to pure Quarto.</p>
 <p>FastAI’s nbdev is a package which includes notebook blogging, which is built on Quarto’s notebook blogging software. Now FastAI say <font color="blue">Quarto</font> is simpler to use if you only want to blog, although you will miss other nbdev features.</p>
 <details>
 <summary>
@@ -326,45 +348,6 @@ You can then use the ‘nbdev’ library to build and publish your project, as w
 Things don’t work and I question what I’m doing and go back to the documentation. Here I realise that I am perhaps unnecessarily going through nbdev to use Quarto, and maybe it is simpler to just use Quarto straight. I give up with nbdev and go to use Quarto. I believe it is a little simpler.
 </ul>
 </details>
-<p><br> A) <ins>https://quarto.org/docs/websites/website-blog.html</ins></p>
-<p>I am following the steps in this Quarto Website blog guide.</p>
-<p>They say you can use VS Code or the Terminal or RStudio. I use VS Code.</p>
-<p><font color="#F87217">I installed <a href="https://quarto.org/docs/get-started/">Quarto</a></font></p>
-<p>(Accidentally to the wrong place on my computer but oh well…)</p>
-<p><font color="#F87217">I installed the Quarto extension in <a href="https://quarto.org/docs/get-started/hello/vscode.html">VS Code</a> </font></p>
-<p><font color="#F87217">I create an empty github repo online, with no readme file, named <em>Sam Llanwarne Blog</em>.</font></p>
-<p><font color="#F87217">I create an empty folder/directory/repo locally with a similar/the same name.</font></p>
-<p><font color="#F87217">I open this folder in VS Code and do ctrl-shit-p and type Quarto Create Project, click it, click create blog, and create a new folder for the blog files. </font></p>
-<p>So we have an online empty git repo, and the blog files offline locally.</p>
-<p><font color="#F87217">I then go into the terminal and cd into this new folder, and run these commands, to move the local files online.</font></p><font color="#F87217">
-<pre><code>git init 
-git add .
-git commit -m "add my files"
-git remote add origin &lt;YOUR_NEW_EMPTY_GITHUB_REPO_URL&gt;.git
-git branch -M main
-git push -u origin main</code></pre>
-</font><p><font color="#F87217"></font></p>
-<p>I found some of these git commands <a href="https://www.techielass.com/convert-a-folder-to-a-git-repository/">here</a> and the rest on the github website.</p>
-<p>Also, to change hard drive, in a windows terminal I google’d it https://www.digitalcitizen.life/command-prompt-how-use-basic-commands/ and it says just to first type D: or C: to change the drive, and then go <strong>cd <em>filepath</em></strong>.</p>
-<p>I realised I have to edit the .ipynb notebook file slightly, see here https://quarto.org/docs/tools/vscode.html. I specifically scrolled down to the section on notebooks, Notebook Editor. This gave some of the final information on how to structure the .ipynb or .qmd files.</p>
-<p><font color="#F87217">I add some YAML code in the top cell, to tell the Quarto files how to position the notebook in the website. This YAML cell should be first and of the type Raw. Again see the link above on how to do this. </font></p>
-<p><font color="#F87217">I then make a folder in the posts folder, and copy this .ipynb notebook file there. It should be called index.ipynb so Quarto knows to publish it.</font></p>
-<p><br> B) <ins>https://quarto.org/docs/publishing/github-pages.html</ins></p>
-<p>Now we’re on the Quarto Github Publishing page.</p>
-<p><font color="#F87217">I change the _quarto.yml file, to say publish to docs, not in posts. </font></p>
-<p><font color="#F87217">I make sure I am in the right folder/directory and add a .nojekyll as they say in the link above. </font></p>
-<p><font color="#F87217">I can push the local changes to github online through VS code.</font></p>
-<p>I can also preview the changes locally.</p>
-<p>The overall plan for managing this blog, is to either make changes locally or online and then commit (and push to the online repo if the changes are local).</p>
-<p>I can do a blog on using github in VS code, but not sure 100% how I will frame that, although it will be good.</p>
-<p><font color="#F87217">I change the pages tab in the settings on Github to say publish from the docs folder, making the website go live. </font></p>
-<p>Apparently I should add a .gitignore to ignore a couple of the crazy folders or something, as they might change a lot.</p>
-<p><br> C) <ins>https://quarto.org/docs/output-formats/html-themes.html</ins> Now I looked at changing the theme.</p>
-<p><font color="#F87217">I changed the theme to have a dark and light one, as in the link above.</font></p>
-<p>Essentially, each post is edited in posts.</p>
-<p>The YAML at the top of each .ipynb or .qmd file controls the appearance of that file. e.g. * tags * contents side bar * date * blog name * potentially the blog summary * position of features, colours etc.</p>
-<p>You can change the theme, add images and change the layout of the home page easily too.</p>
-<p>For example, go into the main homepage index.qmd file, and you can change <strong>type</strong> from default, to grid, to tabel :)</p>
 <p><br></p>
 <p>Thanks for reading!</p>
 <p><br> <br></p>
@@ -379,7 +362,6 @@ git push -u origin main</code></pre>
 </ul>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
