@@ -202,10 +202,7 @@ Additional links and thoughts
 <p>I realised I have to edit the .ipynb notebook file slightly, see here https://quarto.org/docs/tools/vscode.html. I specifically scrolled down to the section on notebooks, Notebook Editor. This gave some of the final information on how to structure the .ipynb or .qmd files.</p>
 </ul>
 </details>
-<p><br></p>
-<ol start="2" type="A">
-<li>Auto-populate local folder and push online</li>
-</ol>
+<p><br> B) Auto-populate local folder and push online</p>
 <ul>
 <p>Full instructions here - <a href="https://quarto.org/docs/websites/website-blog.html">https://quarto.org/docs/websites/website-blog.html</a></p>
 </ul>
@@ -221,10 +218,7 @@ git push -u origin main</code></pre>
 <p><font color="#F87217">I add some YAML code in the top cell, to tell the Quarto files how to position the notebook in the website. This YAML cell should be first and of the type Raw. Again see the link above on how to do this. </font></p>
 <p><font color="#F87217">I then make a folder in the posts folder, and copy this .ipynb notebook file there. It should be called index.ipynb so Quarto knows to publish it.</font></p>
 <p>Apparently I should add a .gitignore to ignore a couple of the crazy folders or something, as they might change a lot.</p>
-<p><br></p>
-<ol start="3" type="A">
-<li>Finishing touches.</li>
-</ol>
+<p><br> C) Finishing touches.</p>
 <ul>
 <p>Full instructions here - <a href="https://quarto.org/docs/publishing/github-pages.html">https://quarto.org/docs/publishing/github-pages.html</a></p>
 </ul>
@@ -232,7 +226,8 @@ git push -u origin main</code></pre>
 <p><font color="#F87217">I make sure I am in the right folder/directory and add a .nojekyll as they say in the link above. </font></p>
 <p><font color="#F87217">I can push the local changes to github online through VS code.</font></p>
 <p><font color="#F87217">I change the pages tab in the settings on Github to say publish from the docs folder, making the website go live. </font></p>
-<p><font color="#F87217">I changed the theme to have a dark and light one, as in the link above.</font></p>
+<p><font color="#F87217">I changed the theme to have a dark and light one, as in the link above. </font></p>
+<p><font color="#F87217">You can add more .ipynb pages locally on your computer, with the appropriate YAML heading, but then you must Quarto render the site to generate the actual HTML website files (as explained on the website and for me I have to press ctrl-shift-p in VS Code)!</font></p>
 <details>
 <summary>
 Additional links and thoughts
