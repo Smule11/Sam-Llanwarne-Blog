@@ -172,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Planning">Planning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="To Do">To Do <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Meta">Meta <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Planning">Planning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="To Do">To Do <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -184,8 +184,68 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Planning" data-listing-date-sort="1672704000000" data-listing-file-modified-sort="1672831966076" data-listing-reading-time-sort="0.2">
+<div class="quarto-post image-right" data-index="0" data-categories="Meta" data-listing-date-sort="1672876800000" data-listing-file-modified-sort="1672935913411" data-listing-reading-time-sort="0.405">
+<div class="thumbnail">
+<p><a href="./blogPosts/writing-tone-and-tips/writingTips.html"> <img src="./blogPosts/writing-tone-and-tips/shraga-kopstein-_76NrDgrfOo-unsplash.jpg" class="thumnail-image" style="height: 200px;"> </a></p>
+</div>
+<div class="body">
+<a href="./blogPosts/writing-tone-and-tips/writingTips.html">
+<h3 class="no-anchor listing-title">
+Writing Tone and Tips Thoughts
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Meta'); return false;">
+Meta
+</div>
+</div>
+<a href="./blogPosts/writing-tone-and-tips/writingTips.html">
+<div class="listing-description">
+Takeaways from other blogs and this blog related to readability…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./blogPosts/writing-tone-and-tips/writingTips.html">
+<div class="listing-date">
+Jan 5, 2023
+</div>
+<div class="listing-author">
+Sam Llanwarne
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="Planning" data-listing-date-sort="1672704000000" data-listing-file-modified-sort="1672935041292" data-listing-reading-time-sort="0.2">
 <div class="thumbnail">
 <p><a href="./blogPosts/future-blog-post-ideas/index.html"> <img src="./blogPosts/future-blog-post-ideas/jess-bailey-l3N9Q27zULw-unsplash.jpg" class="thumnail-image" style="height: 200px;"> </a></p>
 </div>
@@ -220,7 +280,7 @@ Sam Llanwarne
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="To Do" data-listing-date-sort="1671408000000" data-listing-file-modified-sort="1671567056169" data-listing-reading-time-sort="0.615">
+<div class="quarto-post image-right" data-index="2" data-categories="To Do" data-listing-date-sort="1671408000000" data-listing-file-modified-sort="1672935197956" data-listing-reading-time-sort="0.615">
 <div class="thumbnail">
 <p><a href="./blogPosts/things-to-do-on-this_website/index.html"> <img src="./blogPosts/things-to-do-on-this_website/max-saeling-_CGxNOLM1gQ-unsplash.jpg" class="thumnail-image" style="height: 200px;"> </a></p>
 </div>
@@ -255,7 +315,7 @@ Sam Llanwarne
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1671062400000" data-listing-file-modified-sort="1672831924835" data-listing-reading-time-sort="0.81">
+<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1671062400000" data-listing-file-modified-sort="1672935372249" data-listing-reading-time-sort="0.81">
 <div class="thumbnail">
 <p><a href="./blogPosts/welcome/index.html"> <img src="./blogPosts/welcome/thumbnail.jpg" class="thumnail-image" style="height: 200px;"> </a></p>
 </div>

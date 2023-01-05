@@ -88,5 +88,11 @@
   },
   "paperSummaries/explainability-from-histo-images/index.ipynb": {
     "index.html": "44a5e05a"
+  },
+  "blogPosts/writing-tone-and-tips/writingTips.ipynb": {
+    "writingTips.html": "14073f7a"
+  },
+  "howTo/making-a-blog/index.qmd": {
+    "index.html": "f9e895ed"
   }
 }
