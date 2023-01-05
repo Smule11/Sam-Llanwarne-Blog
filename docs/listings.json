@@ -44,12 +44,14 @@
   {
     "listing": "/old_paperSummaries.html",
     "items": [
+      "/paperSummaries/explainability-from-histo-images/index.html",
       "/paperSummaries/things-to-read-tags/index.html"
     ]
   },
   {
     "listing": "/paperSummaries.html",
     "items": [
+      "/paperSummaries/explainability-from-histo-images/index.html",
       "/paperSummaries/things-to-read-tags/index.html"
     ]
   }
