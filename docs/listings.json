@@ -2,6 +2,7 @@
   {
     "listing": "/academicFormations.html",
     "items": [
+      "/academicFormations/to-my-writing/index.html",
       "/academicFormations/contents/index.html",
       "/academicFormations/things-to-write-tags/index.html"
     ]
@@ -26,6 +27,7 @@
   {
     "listing": "/old_academicFormations.html",
     "items": [
+      "/academicFormations/to-my-writing/index.html",
       "/academicFormations/contents/index.html",
       "/academicFormations/things-to-write-tags/index.html"
     ]
