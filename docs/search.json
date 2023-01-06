@@ -145,5 +145,12 @@
     "title": "Paper Summaries",
     "section": "",
     "text": "Automated acquisition of explainable knowledge from unannotated histopathology images\n\n\n\n\n\n\n\nExplain\n\n\nHisto\n\n\nCancer\n\n\n\n\n\n\n\n\n\n\n\nJan 5, 2023\n\n\nSam Llanwarne\n\n\n\n\n\n\n  \n\n\n\n\nPlan guiding which areas of the literature to read\n\n\n\n\n\n\n\nMeta\n\n\n\n\n\n\n\n\n\n\n\nDec 19, 2022\n\n\nSam Llanwarne\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "academicFormations/to-my-writing/index.html",
+    "href": "academicFormations/to-my-writing/index.html",
+    "title": "Link to PDF",
+    "section": "",
+    "text": "<input type=“text” placeholder=“Enter a URL” ::placeholder {color: gray;} style=“background-color: #3CBC8D; color: white;” id=“url” >"
   }
 ]
