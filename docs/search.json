@@ -11,7 +11,7 @@
     "href": "academicFormations/things-to-write-tags/index.html",
     "title": "Plan of things I will write about",
     "section": "",
-    "text": "Things to write\nHere I discuss things I will write about and plans on structuring the writing.\nEssentially, each post will fit into a Chapter, and contribute to a section such as the Background, Method or Results, and will be leading towards a specific Outcome.\nIn this way, a post could have three tags, situating it specifically somewhere within the wider scope of the project based on the Chapter/Outcome/Section.\nOr the post could simply have a Big Picture tag wherein the post would discuss some overarching concept or plan, or a Meta tag such as this post where I am writing indirectly about the academic content.\n\nEach entry won’t include the data, or the code, but can describe the data and methodology sections will go over the code.\nI intend to have each Chapter starting with a brief problem and desired outcomes. In the background I will go over the problem and potential outcomes as already explored by other researchers in more detail and the results they achieved. For the Method I will go over my approach. Similarly, for the results I will go over my results.\nEach problem will have at least this entry, but might have some sub-entries depending on the amount of work done. I will look to follow other well-established paper formats and thesis formats, in terms of the depth of information conveyed in said papers and theses."
+    "text": "Things to write \nHere I discuss things I will write about and plans on structuring the writing.\nEssentially, each post will fit into a Chapter, and contribute to a section such as the Background, Method or Results, and will be leading towards a specific Outcome.\nIn this way, a post could have three tags, situating it specifically somewhere within the wider scope of the project based on the Chapter/Outcome/Section.\nOr the post could simply have a Big Picture tag wherein the post would discuss some overarching concept or plan, or a Meta tag such as this post where I am writing indirectly about the academic content.\n\nEach entry won’t include the data, or the code, but can describe the data and methodology sections will go over the code.\nI intend to have each Chapter starting with a brief problem and desired outcomes. In the background I will go over the problem and potential outcomes as already explored by other researchers in more detail and the results they achieved. For the Method I will go over my approach. Similarly, for the results I will go over my results.\nEach problem will have at least this entry, but might have some sub-entries depending on the amount of work done. I will look to follow other well-established paper formats and thesis formats, in terms of the depth of information conveyed in said papers and theses.\n\n\n\n How to implement a password lock (only allowing certain emails to access the writing) \nI can put the academic blogs behind a landing page which requires a password to access.\nI can have a link on this landing page which gives the password when the reader clicks on it.\nI can choose to only share the link with people who have certain email addresses (OneDrive or Google addresses, etc.)"
   },
   {
     "objectID": "academicFormations.html",
@@ -145,12 +145,5 @@
     "title": "Paper Summaries",
     "section": "",
     "text": "Automated acquisition of explainable knowledge from unannotated histopathology images\n\n\n\n\n\n\n\nExplain\n\n\nHisto\n\n\nCancer\n\n\n\n\n\n\n\n\n\n\n\nJan 5, 2023\n\n\nSam Llanwarne\n\n\n\n\n\n\n  \n\n\n\n\nPlan guiding which areas of the literature to read\n\n\n\n\n\n\n\nMeta\n\n\n\n\n\n\n\n\n\n\n\nDec 19, 2022\n\n\nSam Llanwarne\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "academicFormations/to-my-writing/index.html",
-    "href": "academicFormations/to-my-writing/index.html",
-    "title": "Link to PDF",
-    "section": "",
-    "text": "<input type=“text” placeholder=“Enter a URL” ::placeholder {color: gray;} style=“background-color: #3CBC8D; color: white;” id=“url” >"
   }
 ]
