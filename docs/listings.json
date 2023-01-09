@@ -20,6 +20,7 @@
   {
     "listing": "/howTo.html",
     "items": [
+      "/howTo/making-a-starter-blog/index.html",
       "/howTo/making-an-app/index.html",
       "/howTo/making-a-blog/index.html",
       "/howTo/things-to-make-guides-for-tags/index.html"
@@ -40,6 +41,7 @@
   {
     "listing": "/old_howTo.html",
     "items": [
+      "/howTo/making-a-starter-blog/index.html",
       "/howTo/making-an-app/index.html",
       "/howTo/making-a-blog/index.html",
       "/howTo/things-to-make-guides-for-tags/index.html"
