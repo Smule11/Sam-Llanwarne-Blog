@@ -29,7 +29,8 @@ format:
       dark: flatly
     css: styles.css
 
-
+execute:
+  freeze: auto
 
 
 
