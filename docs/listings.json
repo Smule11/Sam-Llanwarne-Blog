@@ -27,34 +27,6 @@
     ]
   },
   {
-    "listing": "/old_academicFormations.html",
-    "items": [
-      "/academicFormations/to-my-writing/index.html",
-      "/academicFormations/contents/index.html",
-      "/academicFormations/things-to-write-tags/index.html"
-    ]
-  },
-  {
-    "listing": "/old_blog.html",
-    "items": []
-  },
-  {
-    "listing": "/old_howTo.html",
-    "items": [
-      "/howTo/making-a-starter-blog/index.html",
-      "/howTo/making-an-app/index.html",
-      "/howTo/making-a-blog/index.html",
-      "/howTo/things-to-make-guides-for-tags/index.html"
-    ]
-  },
-  {
-    "listing": "/old_paperSummaries.html",
-    "items": [
-      "/paperSummaries/explainability-from-histo-images/index.html",
-      "/paperSummaries/things-to-read-tags/index.html"
-    ]
-  },
-  {
     "listing": "/paperSummaries.html",
     "items": [
       "/paperSummaries/explainability-from-histo-images/index.html",
