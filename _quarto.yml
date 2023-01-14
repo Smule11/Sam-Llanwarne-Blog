@@ -3,6 +3,7 @@ project:
   output-dir: docs
 
 website:
+  favicon: icons8-b-100.png
   title: "SamLlan Blog"
   site-url: https://smule11.github.io/Sam-Llanwarne-Blog/
   description: "Sam Llanwarne's blog"

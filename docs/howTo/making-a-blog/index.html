@@ -67,7 +67,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../paperSummaries.html">
+    <a class="nav-link active" href="../../paperSummaries.html" aria-current="page">
  <span class="menu-text">Paper Summaries</span></a>
   </li>  
   <li class="nav-item">
@@ -119,12 +119,20 @@ ul.task-list li input[type="checkbox"] {
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Making a Blog</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Making a Blog</h1>
+      <h1 class="title d-none d-lg-block">Making a Blog</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">How To</div>
               </div>
@@ -154,6 +162,182 @@ ul.task-list li input[type="checkbox"] {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../academicFormations.html" class="sidebar-item-text sidebar-link">Academic Formations</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../old_academicFormations.html" class="sidebar-item-text sidebar-link">Academic Formations</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../blog.html" class="sidebar-item-text sidebar-link">Blog</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../old_blog.html" class="sidebar-item-text sidebar-link">Blog</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../old_index.html" class="sidebar-item-text sidebar-link">Home</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../howTo.html" class="sidebar-item-text sidebar-link">How To</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../old_howTo.html" class="sidebar-item-text sidebar-link">How To</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../old_paperSummaries.html" class="sidebar-item-text sidebar-link">Paper Summaries</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../paperSummaries.html" class="sidebar-item-text sidebar-link">Paper Summaries</a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">AcademicFormations</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../academicFormations/contents/index.html" class="sidebar-item-text sidebar-link">Contents of my Thesis</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../academicFormations/to-my-writing/index.html" class="sidebar-item-text sidebar-link">Link to PDF</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../academicFormations/things-to-write-tags/index.html" class="sidebar-item-text sidebar-link">Plan of things I will write about</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">BlogPosts</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../blogPosts/future-blog-post-ideas/index.html" class="sidebar-item-text sidebar-link">Future Blog Post Ideas</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../blogPosts/things-to-do-on-this_website/index.html" class="sidebar-item-text sidebar-link">To Do</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../blogPosts/welcome/index.html" class="sidebar-item-text sidebar-link">Welcome!</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../blogPosts/work-insights/index.html" class="sidebar-item-text sidebar-link">Work Insights</a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">Writing Tone and Tips</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../blogPosts/writing-tone-and-tips/writingTips.html" class="sidebar-item-text sidebar-link">Writing Tone and Tips Thoughts</a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">HowTo</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../howTo/making-a-blog/index.html" class="sidebar-item-text sidebar-link active">Making a Blog</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../howTo/making-a-starter-blog/index.html" class="sidebar-item-text sidebar-link">Making a Starter Blog</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../howTo/making-an-app/index.html" class="sidebar-item-text sidebar-link">Making an App</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../howTo/things-to-make-guides-for-tags/index.html" class="sidebar-item-text sidebar-link">Plan of entries for this how to guide</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">PaperSummaries</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../paperSummaries/explainability-from-histo-images/index.html" class="sidebar-item-text sidebar-link">Automated acquisition of explainable knowledge from unannotated histopathology images</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../paperSummaries/things-to-read-tags/index.html" class="sidebar-item-text sidebar-link">Plan guiding which areas of the literature to read</a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -249,7 +433,7 @@ Additional links and thoughts
 <p>Creating a blog in a template is easier than coding a website yourself, although I still think this is very easy for a basic website. But incorporating more complex features and making it look nicer is easier with a template. Jekyll is one template people use:</p>
 <ul>
 <li><a href="https://ysbecca.github.io/">Rebecca Stone</a> | <a href="">github code</a></li>
-<li>[Mary Paterson] (hyperlink) | <a href="">github code</a></li>
+<li><a href="https://mary-paterson.github.io/">Mary Paterson</a> | <a href="">github code</a></li>
 <li><a href="https://fabianfuchsml.github.io/">Fabian Fuchs</a> | <a href="">github code</a></li>
 </ul>
 <p>But I agreed with Bailey, that doing a template that centres on .ipynb notebooks rather than straight .md markdown files is slightly better, as notebooks include markdown cells, but also code cells. So you can run code offline and the blog post can be more easily code centred. Also other people can copy the notebook and run it themselves which is useful.</p>
@@ -267,6 +451,16 @@ Additional links and thoughts
 <li>Also her main website homepage, links to her blog, <a href="https://djnavarro.net/">here</a> | <a href="https://github.com/djnavarro/djnavarro.github.io/blob/main/docs/index.html">github code</a></li>
 </ul></li>
 <li><a href="https://samanthacsik.github.io/talks_workshops/2022-08-05-creating-your-personal-website-using-quarto/">Samantha Csik</a> | <a href="https://github.com/samanthacsik/samanthacsik.github.io">github code</a></li>
+<li>https://robjhyndman.com/hyndsight/quarto.html</li>
+<li><a href="https://quarto.org/docs/publishing/github-pages.html#github-action">quarto.org</a></li>
+</ul>
+<p>Blogdown or something * <a href="https://www.apreshill.com/">Alison Hill from Quarto</a> *</p>
+<p>Wordpress</p>
+<ul>
+<li><a href="https://samrelton.wordpress.com/2014/07/24/ten-things-i-learnt-during-my-phd-thesis/">Sam Relton</a>
+<ul>
+<li>Including advice on doing a Phd</li>
+</ul></li>
 </ul>
 <p>More homemade blogs:</p>
 <ul>
@@ -285,10 +479,6 @@ Additional links and thoughts
 <ul>
 <li>easiest but not that fulfilling work; a consistent but less than average reward; low risk.</li>
 </ul></li>
-</ul></li>
-<li><a href="https://samrelton.wordpress.com/2014/07/24/ten-things-i-learnt-during-my-phd-thesis/">Sam Relton</a>
-<ul>
-<li>Including advice on doing a Phd</li>
 </ul></li>
 </ul>
 <p><br></p>
