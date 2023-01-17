@@ -10,6 +10,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/blogPosts/quotes/index.html",
       "/blogPosts/work-insights/index.html",
       "/blogPosts/writing-tone-and-tips/writingTips.html",
       "/blogPosts/future-blog-post-ideas/index.html",
