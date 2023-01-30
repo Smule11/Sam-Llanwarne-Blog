@@ -10,6 +10,8 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/blogPosts/working-music/index.html",
+      "/blogPosts/thoughts-on-the-cv/index.html",
       "/blogPosts/audible-books-and-ebooks/index.html",
       "/blogPosts/productivity/index.html",
       "/blogPosts/quotes/index.html",
