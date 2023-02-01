@@ -284,18 +284,71 @@ TWAs are useful for a variety of scenarios, such as displaying web content in a 
 <li><p>https://www.angularminds.com/blog/article/best-pwa-app-development-frameworks.html</p></li>
 <li><p>https://bsscommerce.com/blog/best-pwa-framework-angular-vue-react/</p></li>
 </ol>
-<p>Overview:</p>
+<p>Overview / Things to do / Plan:</p>
 <ol type="1">
-<li><p>Make a website. Javascript and HTML5 and all that utility.</p></li>
+<li><p>Make a website. Javascript and HTML5 and all that utility.</p>
+<p>1.1 This will be in my github repo, PWA</p></li>
 <li><p>Turn it into a PWA.</p></li>
+<li><p>Run bubblewrap on this to make your TWA.</p></li>
 </ol>
-<p>Not sure where the features like access the devices storage and stuff come in. Not sure how a website can work offline when you</p>
-<p>Pseudo Next Steps:</p>
-<p>Need bubblewrap to turn PWA into app. This comes with a lot of code dependencies, including node.js, java development kit and android command line tools, along with bubblewrap installation itself.</p>
+<p>Not sure where the features like access the devices storage and stuff come in. Not sure how a website can work offline when you.</p>
+<p>What I did:</p>
+<ol type="1">
+<li><p>run</p>
+<pre><code> npm i -g @bubblewrap/cli</code></pre>
+<p>in the terminal</p></li>
+</ol>
+<details>
+<summary>
+Can you explain what each part of this command line input means, chatgpt?
+</summary>
+<ul>
+<p>Sure! “npm i -g <span class="citation" data-cites="bubblewrap/cli">@bubblewrap/cli</span>” is a command line in the Node Package Manager (npm) that installs the “<span class="citation" data-cites="bubblewrap/cli">@bubblewrap/cli</span>” package globally (-g) on your computer.</p>
+<p>Here’s what each part of the command means:</p>
+<ol type="1">
+<li><p>“npm i” - This is a shorthand for “npm install”. It is used to install packages from the npm registry.</p></li>
+<li><p>“-g” - This flag tells npm to install the package globally, which means it can be used from any location on your computer.</p></li>
+<li><p>“<span class="citation" data-cites="bubblewrap/cli">@bubblewrap/cli</span>” - This is the name of the package that you are installing. “<span class="citation" data-cites="bubblewrap">@bubblewrap</span>” is the name of the organization that maintains the package, and “cli” is the name of the package itself. The “<span class="citation" data-cites="bubblewrap/cli">@bubblewrap/cli</span>” package is a command line interface (CLI) for Bubblewrap, which is a tool for creating and managing Progressive Web Apps (PWAs).</p></li>
+</ol>
+<p>So, the whole command line is installing the “<span class="citation" data-cites="bubblewrap/cli">@bubblewrap/cli</span>” package globally on your computer, which will allow you to use the Bubblewrap CLI from any location on your computer.</p>
+</ul>
+</details>
+<ol start="2" type="1">
+<li><p>run</p>
+<pre><code> bubblewrap init --manifest=https://smule11.github.io/basic-PWA/manifest.json</code></pre>
+<p>in the terminal</p></li>
+<li><p>I said y, when asked</p>
+<pre><code> Do you want Bubblewrap to install JDK?
+ (Enter "No" to use your JDK installation) Yes</code></pre>
+<p>which installed like 180MB of JDK 11 onto my computer,</p>
+<p><code>markdown  Downloading JDK 11 to C:\Users\sllan\.bubblewrap\jdk  Downloading the JDK 11 Sources...  &gt;&gt; [██████████████████████░░░░░░░░░░░░░░░░░░] 54% | 102196k of 185929k</code></p></li>
+</ol>
+<p>I hit a big speedbump. I didn’t want .bubblewrap (and the JDK and androidSDK) installed in the default place.</p>
+<p>I tried to move them, and things broke. There were pointers pointing to them, in the config file for starters in .bubblewrap. I think there other pointers maybe too. Maybe I can move it, but what I did was I moved it, hit some errors, cleared out all my moved .bubblewrap folders and reinstalled, leaving it in the default place. Then I hit another two errors. One was where we had to comment out the memory limit error, thanks stack overflow, better than chatgpt which is useful but is only intelligent as it learns from stackoverflow. Stackoverflow you can actually interact with, and can be more useful. But I do see the point of chatgpt for helping answer “basic” questions and preventing spam on stackoverflow.</p>
+<p>Error 0, have to have pointers to the JDK (and java inside) and androidSDK intact:</p>
+<p>Best to leave .bubblewrap alone in the place where you install it.</p>
+<p>Even if you are cd’d into your new empty app folder, bubblewrap seems to always install in the main, top, C directory.</p>
+<p>Error 1, memory issue as bubblewrap struggles:</p>
+<p>https://stackoverflow.com/questions/70274877/while-building-an-apk-using-bubblewrap-build-its-shows-error-unable-to-start-the</p>
+<p>Error 2, failed to install some android sdk packages:</p>
+<p>https://stackoverflow.com/questions/54273412/failed-to-install-the-following-android-sdk-packages-as-some-licences-have-not</p>
+<p>https://www.geeksforgeeks.org/how-to-fix-failed-to-install-the-following-android-sdk-packages-as-some-licenses-have-not-been-accepted-error-in-android-studio/</p>
+<p>had to do some license approval stuff…</p>
+<p>Error 3, no path to JAVA:</p>
+<p>https://stackoverflow.com/questions/17315425/error-in-setting-java-home</p>
+<p>https://www.google.com/search?q=java+path&amp;rlz=1C1ONGR_en-GBGB1006GB1006&amp;sxsrf=AJOqlzXiYSZrGr86xkBfxPdkcgI10NBQ_A:1675205029826&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwiy9OmF8fL8AhVuSkEAHfnOAIkQ_AUoAnoECAEQBA&amp;biw=1536&amp;bih=722&amp;dpr=1.25#imgrc=L2QjNIqOE8yUEM</p>
+<p>need create a system environment path to the java inside the jdk, or to just the jdk?</p>
+<p>Thoughts:</p>
+<p>Need bubblewrap to turn PWA into a TWA which is a PWA which can be on the app store. This comes with a lot of code dependencies, including node.js, java development kit and android command line tools, along with bubblewrap installation itself.</p>
 <p>Making just a pwa online, and making it installable, fast, reliable, and feature-rich might be enough of an effort.</p>
 <p>Following the bubblewrap steps in link 1 above does seem doable, but at the same time, I am wondering whether it is worthing making the PWA first.</p>
 <p>Probably not, better to just make the most basic app first, and then make a slightly more complex PWA and make that an app, and then make the most complex PWA.</p>
 <p>Making the app - a logger could be okay, mainly want an API to local storage and microphone.</p>
+<p>To do in the blog:</p>
+<p>Need to say like the overall steps, with each part explained. Website -&gt; PWA -&gt; TWA</p>
+<p>With mentioning all the required softwares and why they are there and what they do and how to have them there.</p>
+<p>Maybe that why, what, how answers could be split up a bit, otherwise too information dense.</p>
+<p>Also question about if you make this too accessible, maybe google won’t like it. Like they could have made app creation more accessible already, no?</p>
 
 
 
