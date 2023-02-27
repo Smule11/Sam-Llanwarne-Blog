@@ -10,6 +10,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/blogPosts/general-ai/index.html",
       "/blogPosts/working-music/index.html",
       "/blogPosts/thoughts-on-the-cv/index.html",
       "/blogPosts/audible-books-and-ebooks/index.html",
@@ -18,7 +19,6 @@
       "/blogPosts/work-insights/index.html",
       "/blogPosts/writing-tone-and-tips/writingTips.html",
       "/blogPosts/future-blog-post-ideas/index.html",
-      "/blogPosts/new blog/index.html",
       "/blogPosts/things-to-do-on-this_website/index.html",
       "/blogPosts/welcome/index.html"
     ]
@@ -26,6 +26,7 @@
   {
     "listing": "/howTo.html",
     "items": [
+      "/howTo/computer-shutdown-when-hibernate/index.html",
       "/howTo/making-a-starter-blog/index.html",
       "/howTo/making-an-app/index.html",
       "/howTo/making-a-blog/index.html",

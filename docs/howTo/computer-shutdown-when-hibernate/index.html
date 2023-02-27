@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Sam Llanwarne">
-<meta name="dcterms.date" content="2022-12-20">
+<meta name="dcterms.date" content="2023-02-23">
 
-<title>SamLlan Blog - Making an App</title>
+<title>SamLlan Blog - Stopping PC Shutdown when Hibernating</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -125,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Making an App</h1>
+      <h1 class="title">Stopping PC Shutdown when Hibernating</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">How To</div>
               </div>
@@ -145,7 +145,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">December 20, 2022</p>
+        <p class="date">February 23, 2023</p>
       </div>
     </div>
     
@@ -165,7 +165,30 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Hello Everyone!</p>
+<p><img src="shutdown-hibernate_andy-holmes-CbPCtZ4ZiCI-unsplash.jpg" class="img-fluid" style="width: 100%; object-fit: cover; object-position: center;"></p>
+<p>Sometimes when I hibernate the computer, it shuts down instead of hibernating. This is a problem when I have a lot of unsaved work.</p>
+<p>Here, in the article <a href="https://www.guidingtech.com/fix-windows-10-shuts-down-instead-sleep-hibernating/#:~:text=If%20the%20computer%20shuts%20down,off%20automatically%2C%20and%20that's%20okay.">How to Fix Windows 10 Shuts Down Instead of Going to Sleep or Hibernating</a> the writer GAURAV BIDASARIA says that the issue might be with the power options.</p>
+<div class="quarto-figure quarto-figure-center" style="width: 100%;">
+<figure class="figure">
+<p><img src="change-power-options-0.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">change-power-options-0.png</figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center" style="width: 100%;">
+<figure class="figure">
+<p><img src="change-power-options-1.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">change-power-options-1.png</figcaption><p></p>
+</figure>
+</div>
+<p>They say to change the hard drive auto-off to 0 minutes (aka never turn off).</p>
+<p>However, I don’t have that option. So to fix this, I go into registry and, as they say here <img src="https://superuser.com/questions/1536904/windows-10-power-options-missing-on-new-laptop.png" class="img-fluid" alt="https://superuser.com/questions/1536904/windows-10-power-options-missing-on-new-laptop">, I create an attributes in the appropriate location and give it a DWORD value of 2 to make the option appear, as suggested here <embed src="https://www.tenforums.com/tutorials/65710-add-remove-turn-off-hard-disk-after-power-options-windows.html#option1" class="img-fluid">.</p>
+<div class="quarto-figure quarto-figure-center" style="width: 100%;">
+<figure class="figure">
+<p><img src="change-power-options-2.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">change-power-options-1.png</figcaption><p></p>
+</figure>
+</div>
+<p>I have changed it, so the hard drive doesn’t turn off, and I also got rid of the fast boot as suggested in the first image. Maybe this will fix the problem.</p>
 
 
 

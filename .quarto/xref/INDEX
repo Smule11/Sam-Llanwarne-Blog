@@ -124,5 +124,11 @@
   },
   "blogPosts/new blog/index.ipynb": {
     "index.html": "3c381ca1"
+  },
+  "blogPosts/general-ai/index.ipynb": {
+    "index.html": "24039be7"
+  },
+  "howTo/computer-shutdown-when-hibernate/index.ipynb": {
+    "index.html": "b4eb98aa"
   }
 }

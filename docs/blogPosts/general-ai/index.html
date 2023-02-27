@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Sam Llanwarne">
+<meta name="dcterms.date" content="2023-02-11">
 
-<title>SamLlan Blog - Paper Summaries</title>
+<title>SamLlan Blog - General AI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,27 +25,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./icons8-b-100.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../icons8-b-100.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -63,39 +63,9 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -105,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">SamLlan Blog</span>
     </a>
   </div>
@@ -115,19 +85,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./paperSummaries.html" aria-current="page">
+    <a class="nav-link" href="../../paperSummaries.html">
  <span class="menu-text">Paper Summaries</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./academicFormations.html">
+    <a class="nav-link" href="../../academicFormations.html">
  <span class="menu-text">Academic Formation</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./howTo.html">
+    <a class="nav-link" href="../../howTo.html">
  <span class="menu-text">How To</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html">
+    <a class="nav-link" href="../../blog.html">
  <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -154,144 +124,67 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Paper Summaries</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">General AI</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Future</div>
+              </div>
+                  </div>
   </div>
     
   
   <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Sam Llanwarne </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">February 11, 2023</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Cancer">Cancer <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Explain">Explain <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Histo">Histo <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Meta">Meta <span class="quarto-category-count">(1)</span></div></div></div>
-<!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
-
-
-
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
     </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Explain,Histo,Cancer" data-listing-date-sort="1672876800000" data-listing-file-modified-sort="1672929552000" data-listing-reading-time-sort="0.19">
-<div class="thumbnail">
-<p><a href="./paperSummaries/explainability-from-histo-images/index.html"> <img src="./paperSummaries/explainability-from-histo-images/fig2.png" class="thumnail-image" style="height: 200px;"> </a></p>
-</div>
-<div class="body">
-<a href="./paperSummaries/explainability-from-histo-images/index.html">
-<h3 class="no-anchor listing-title">
-Automated acquisition of explainable knowledge from unannotated histopathology images
-</h3>
-<div class="listing-subtitle">
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Explain'); return false;">
-Explain
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Histo'); return false;">
-Histo
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Cancer'); return false;">
-Cancer
-</div>
-</div>
-<a href="./paperSummaries/explainability-from-histo-images/index.html">
-<div class="listing-description">
-The authors use deep learning to generate explainable features which are used to predict prostate cancer reoccurence.
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./paperSummaries/explainability-from-histo-images/index.html">
-<div class="listing-date">
-Jan 5, 2023
-</div>
-<div class="listing-author">
-Sam Llanwarne
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Meta" data-listing-date-sort="1671408000000" data-listing-file-modified-sort="1672929552000" data-listing-reading-time-sort="0.485">
-<div class="thumbnail">
-<p><a href="./paperSummaries/things-to-read-tags/index.html"> <img src="./paperSummaries/things-to-read-tags/max-saeling-_CGxNOLM1gQ-unsplash.jpg" class="thumnail-image" style="height: 200px;"> </a></p>
-</div>
-<div class="body">
-<a href="./paperSummaries/things-to-read-tags/index.html">
-<h3 class="no-anchor listing-title">
-Plan guiding which areas of the literature to read
-</h3>
-<div class="listing-subtitle">
 
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Meta'); return false;">
-Meta
-</div>
-</div>
-<a href="./paperSummaries/things-to-read-tags/index.html">
-<div class="listing-description">
-Here I discuss areas of the literature I plan to read.
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./paperSummaries/things-to-read-tags/index.html">
-<div class="listing-date">
-Dec 19, 2022
-</div>
-<div class="listing-author">
-Sam Llanwarne
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+
+
+<p><img src="generalAI_alexander-sinn-KgLtFCgfC28-unsplash.jpg" class="img-fluid" style="width: 100%; object-fit: cover; object-position: center;"></p>
+<p>ChatGPT is very popular, but as Noam Chomsky says<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, it is just a new form of plagiarism, as all the knowledge in the model is based on the work, writing and art of people posting their thoughts onto the internet. The model is trained on this, and is simply a statistical next word predictor, using deep neural networks.</p>
+<p>Some call it a “low resolution copy of the internet”<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.</p>
+<p>But when compared to the race for artificial general intelligence (AGI) I much prefer our race for technology which at least is not going to be conscious.</p>
+<p>I don’t want General AI. Making conscious things which can suffer is def the worst thing we could do?</p>
+<p>This thought was one of my thoughts which led me to think that it is less likely that we are part of a simulation. If a civilisation was advanced enough to make a simulation they should surely have advanced enough ethics to prevent them from creating suffering on an infinite simulated scale?</p>
+<p>But we are still incredibly crude as a civilisation, particularly regarding our knowledge of ourselves and ethics at large. And yet we race towards creating AGI and potentially new digital consciousnesses which may in turn lead to an incalcuable level of suffering. Would you like to be a disembodied consciousness, floating around with your thoughts spinning millions of times faster than ours currently do. This is an obvious, black mirror episode, except the suffering would not be felt by humans but another conscious species. Is that why it’s a blind spot to us societally, because it wouldn’t be humans suffering?</p>
+<p>Can we slow down and think more? Why are we, societally, like such a headless chicken charging forwards in a rat race.</p>
+<p>Saying this all outloud sounds dumb. But I’ve no idea why no one else is talking about this. I reckon the green’s will pick up on it first, as usual.</p>
+
+
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>https://www.openculture.com/2023/02/noam-chomsky-on-chatgpt.html<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
